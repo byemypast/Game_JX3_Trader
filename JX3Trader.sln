@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "JX3Trader", "JX3Trader.pyproj", "{52D79ECA-1063-40AC-9468-C43224B43C15}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "JX3Trader", "JX3Trader.pyproj", "{DD9E86F1-6DFC-445A-B129-912347A0DBFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52D79ECA-1063-40AC-9468-C43224B43C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52D79ECA-1063-40AC-9468-C43224B43C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9E86F1-6DFC-445A-B129-912347A0DBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9E86F1-6DFC-445A-B129-912347A0DBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

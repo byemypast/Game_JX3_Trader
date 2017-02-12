@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{dd9e86f1-6dfc-445a-b129-912347a0dbfe}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>JX3Trader.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{f6a8433f-ecda-496f-b69e-1e9cdf6ae56a}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="debug.py" />
+    <Compile Include="JX3Control.py" />
+    <Compile Include="JX3Trader.py" />
+    <Compile Include="send\sendapis.py" />
+    <Compile Include="send\sendcore.py" />
+    <Compile Include="send\sendmail.py" />
+    <Compile Include="send\__init__.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="settings_pwd.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{f6a8433f-ecda-496f-b69e-1e9cdf6ae56a}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="send\" />
+    <Folder Include="send\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="recipe.txt" />
+    <Content Include="send\sendcore.py.bak" />
+    <Content Include="send\sendmail.py.bak" />
+    <Content Include="send\__pycache__\sendapis.cpython-36.pyc" />
+    <Content Include="send\__pycache__\sendcore.cpython-36.pyc" />
+    <Content Include="send\__pycache__\sendmail.cpython-36.pyc" />
+    <Content Include="send\__pycache__\__init__.cpython-36.pyc" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

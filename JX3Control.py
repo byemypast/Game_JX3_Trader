@@ -35,7 +35,9 @@ class JX3Control(object):
 	def InputData(self,strs):
 		self.SetClipData(strs)
 		self.Waiting()
-		send.sendcore.ctrlventer()
+		self.PressCtrlV()
+		self.Waiting()
+		self.PressEnter()
 	def GetScreenPixel(self,xy):
 		screen = ImageGrab.grab().getpixel(xy)
 		return screen
@@ -45,14 +47,37 @@ class JX3Control(object):
 		send.sendcore.key_press(0x01)
 	def PressBACK(self):
 		send.sendcore.key_press(0x0E)
+	def PressF(self):
+		send.sendcore.key_press(0x21)
+	def PressCtrlXX(self,key):
+		#Scancodes references : https://www.win.tue.nl/~aeb/linux/kbd/scancodes-1.html
+		send.sendcore.key_down(0x1D) #CTRL
+		time.sleep(0.1)
+		send.sendcore.key_down(key) #key
+		time.sleep(0.1)
+		send.sendcore.key_up(0x1D) #CTRL
+		time.sleep(0.1)
+		send.sendcore.key_up(key) #key
+		time.sleep(0.1)
+	def PressCtrlA(self):
+		self.PressCtrlXX(0x1E)
+	def PressCtrlW(self):
+		self.PressCtrlXX(0x11)
+	def PressCtrlV(self):
+		self.PressCtrlXX(0x2F)
+
 
 
 class JX3Action(object):
 	control = None
 	util = None
+	TraderWindow = False
+	TraderPage = ''
 	def __init__(self):
 		self.control = JX3Control()
 		self.util = settings.util()
+		self.TraderWindow = False
+		self.TraderPage = ''
 
 	def login(self,user,pwd,wait=45):
 		#user:用户名
@@ -61,7 +86,7 @@ class JX3Action(object):
 		debug("开始登录模块，账号 = "+user+" 密码=len("+str(len(pwd))+'),超时设置为: '+str(wait)+"s.")
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_USERNAME))
 		self.control.Waiting()
-		send.sendcore.ctrla() #清除已有账号信息
+		self.control.PressCtrlA() #清除已有账号信息
 		self.control.Waiting()
 		self.control.PressBACK()
 
@@ -106,7 +131,7 @@ class JX3Action(object):
 	def logout(self,wait=45):
 		#策略：直接使用快捷键登出。请设置为Ctrl + W
 		debug("开始登出模块，超时时间: "+str(wait)+"s.")
-		send.sendcore.ctrlw()
+		self.control.PressCtrlW()
 		i = 0
 		while (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_CONFIRM_LOCATION)) , settings.TUPLE_LOGIN_CONFRIM_PIXEL)== False) and(i<=wait):
 			i += 1
@@ -115,3 +140,43 @@ class JX3Action(object):
 			raiseError("登出失败！请尽快查看程序状态避免消费点卡！",1)
 			return -1
 		debug("账号登出成功！")
+	def openTrader(self,wait=10):
+		if self.TraderPage==True:
+			debug("重复打开交易行！",'错误')
+			return
+		debug("尝试打开交易行")
+		self.control.PressF()
+		self.control.Waiting()
+		self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_DIALOG))
+		i = 0
+		while(i<=wait)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_OPENEDPOS)),settings.TUPLE_TRADER_OPENEDPIX)==False):
+			time.sleep(1)
+			i += 1
+		if i>wait:
+			debug("交易行打开失败！请检查设置","严重")
+			self.TraderWindow = False
+		else:
+			debug("交易行打开成功！")
+			self.TraderPage = '买卖'
+			self.TraderWindow = True
+	def TraderTurnPage(self):
+		if self.TraderPage == '买卖':
+			debug("切换交易页面： 买卖-->寄售")
+			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_SELLBUTTON))
+			self.control.Waiting()
+			self.TraderPage == '寄售'
+		else:
+			debug("切换交易页面： 寄售-->买卖")
+			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_QUERYBUTTON))
+			self.TraderPage == '买卖'
+	def TraderSearchWithoutOCR(self,ItemName,BagBase,BagPosition):
+		#使用非OCR的方式查询游戏物品的价格
+		#流程：首先在买卖页面搜索物品，由交易行插件记录价格
+		#      再在寄卖页面拟卖出该物品，在价格一栏中复制当前该物品的价格
+		#      这个方法要求背包里必须拥有该物品
+		#      考虑到背包界面、不同包裹起始位置在每个客户端位置、不同角色背包数量、大小在不同角色不同，要求设定背包在屏幕中的位置。
+		#ItemName: 物品名称 BagBase: 背包基量。为一个二维元组（包裹起始基量，增量） BagPosition: 背包位置，为一个二维元组（行，列）。从0开始
+		if self.TraderPage == '寄售':
+			self.TraderTurnPage()
+			self.control.Waiting()
+			self.control.ClickMouse(
