@@ -1,16 +1,16 @@
-# -*- coding:gbk -*-  
-# Ò»´ÎĞÔÀà½Å±¾
+# -*- coding:utf-8 -*-  
+# ä¸€æ¬¡æ€§ç±»è„šæœ¬
 import settings
 
 def RecipeToItem():
-	#°ÑÅä·½ÎÄ¼şÖĞ²»ÖØ¸´µÄÎïÆ·ÌáÈ¡³öÀ´£¬×ö²éÑ¯ÓÃ
+	#æŠŠé…æ–¹æ–‡ä»¶ä¸­ä¸é‡å¤çš„ç‰©å“æå–å‡ºæ¥ï¼ŒåšæŸ¥è¯¢ç”¨
 	items = {}
 	for line in open(settings.RECIPE_FILENAME,encoding = 'gbk'):
 		if (line[0]!='#')and(line.strip("\n").replace(" ","")!=''):
-			#Èç¹ûÓĞÄÚÈİÇÒ·Ç×¢ÊÍ
+			#å¦‚æœæœ‰å†…å®¹ä¸”éæ³¨é‡Š
 			info = line.strip("\n").split(" ")
 			compounds = info[3:][:-2]
-			#ÎïÆ· ËµÃ÷ À´Ô´ ***Åä·½*** ÏûºÄÌåÁ¦ ×¨¾«
+			#ç‰©å“ è¯´æ˜ æ¥æº ***é…æ–¹*** æ¶ˆè€—ä½“åŠ› ä¸“ç²¾
 			itemadd = [(info[0].split(",")[0],1)]
 			for compound in compounds:
 				itemadd.append((compound.split(",")[0],compound.split(",")[1]))

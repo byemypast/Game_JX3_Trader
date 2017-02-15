@@ -1,4 +1,4 @@
-# -*- coding:gbk -*-  
+# -*- coding:utf-8 -*-  
 import os
 import sqlite3
 from debug import *
@@ -10,13 +10,13 @@ class JX3Save(object):
 		else:
 			self._CreateLib(settings.SAVEDB_FILENAME)
 	def _CreateLib(self,filename):
-		debug("³¢ÊÔĞÂ½¨±£´æÊı¾İ¿â : "+filename)
+		debug("å°è¯•æ–°å»ºä¿å­˜æ•°æ®åº“ : "+filename)
 		db = JX3Lib(sqlite3.connect(filename))
 		db.query("CREATE TABLE itemsinfo(NAME TEXT,PRICE REAL,CATEGORY TEXT,TIME TEXT,N INT)")
 		db.query("CREATE TABLE ninfo(NAME TEXT PRIMARY KEY,N INT,LASTUPDATE TEXT)")
 		self.db = db
 	def updateLib(self,listres):
-		debug("¿ªÊ¼ÏòÊı¾İ¿âÖĞĞ´ÈëÑ¯¼Û½á¹û")
+		debug("å¼€å§‹å‘æ•°æ®åº“ä¸­å†™å…¥è¯¢ä»·ç»“æœ")
 		for (name,category,gold,sliver,copper,timeupdate) in listres:
 			price = int(gold)+0.01*int(sliver)+0.0001*int(copper)
 			result = self.db.query("SELECT N FROM ninfo where NAME = '"+name+"'")
@@ -28,7 +28,7 @@ class JX3Save(object):
 				n = int(result[0][0]) + 1
 			self.db.query("INSERT INTO itemsinfo VALUES ('"+name+"',"+str(price)+",'"+category+"','"+timeupdate+"',"+str(n)+")")
 		self.db.commit()
-		debug("Ğ´Èë½áÊø")
+		debug("å†™å…¥ç»“æŸ")
 
 
 class JX3Lib(object):
@@ -45,7 +45,7 @@ class JX3Lib(object):
 			if commit ==True:
 				conn.commit()
 		except Exception as err:
-			debug("Êı¾İ¿âÖ´ĞĞÃüÁî³ö´í£¡ÃüÁî£º" + command + ",commit = "+str(commit)+" ,´íÎóĞÅÏ¢£º "+str(err),'´íÎó')
+			debug("æ•°æ®åº“æ‰§è¡Œå‘½ä»¤å‡ºé”™ï¼å‘½ä»¤ï¼š" + command + ",commit = "+str(commit)+" ,é”™è¯¯ä¿¡æ¯ï¼š "+str(err),'é”™è¯¯')
 		return result
 	def commit(self,conn = None):
 		if conn ==None:
@@ -53,4 +53,4 @@ class JX3Lib(object):
 		try:
 			conn.commit()
 		except:
-			debug("Êı¾İ¿â±£´æ³ö´í£¡",'´íÎó')
+			debug("æ•°æ®åº“ä¿å­˜å‡ºé”™ï¼",'é”™è¯¯')

@@ -1,4 +1,4 @@
-# -*- coding:gbk -*-  
+# -*- coding:utf-8 -*-  
 import JX3Control
 import JX3Save
 import time
@@ -16,9 +16,9 @@ def TraderRecord(gameOBJ):
 	return gameOBJ.TraderSearchWithoutOCR_Offline()
 
 
-#Ò»´ÎÖ´ĞĞ³ÌĞò£¬ÓÃÓÚÉú³ÉÅäÖÃÎÄ¼şµÈ¡£Èç¹ûÒÑÅäÖÃºÃ¿É²»±»Ö´ĞĞ¡£
+#ä¸€æ¬¡æ‰§è¡Œç¨‹åºï¼Œç”¨äºç”Ÿæˆé…ç½®æ–‡ä»¶ç­‰ã€‚å¦‚æœå·²é…ç½®å¥½å¯ä¸è¢«æ‰§è¡Œã€‚
 import Onetime
-Onetime.RecipeToItem() #½«Åä·½ÏµÁĞ×ª»¯ÎªÑ¯¼ÛÎÄ¼ş
+Onetime.RecipeToItem() #å°†é…æ–¹ç³»åˆ—è½¬åŒ–ä¸ºè¯¢ä»·æ–‡ä»¶
 
 #DEF
 GameControl = JX3Control.JX3Action()
@@ -28,12 +28,12 @@ lasttime = 0
 time.sleep(10)
 while True:
 	if (time.time()-lasttime)>settings.INT_RECORDPRICE:
-		debug("¶¨Ê±ÈÎÎñ´¥·¢£¬¼ä¸ôÃëÊı = "+str(settings.INT_RECORDPRICE))
+		debug("å®šæ—¶ä»»åŠ¡è§¦å‘ï¼Œé—´éš”ç§’æ•° = "+str(settings.INT_RECORDPRICE))
 		lasttime = time.time()
-		#---------------ÈÎÎñ¿ªÊ¼----------------
-		PriceList = TraderRecord(GameControl) #Ö´ĞĞµÇÂ¼Ñ­»·
-		SaveControl.updateLib(PriceList) #±£´æ
-		#---------------ÈÎÎñ½áÊø----------------
+		#---------------ä»»åŠ¡å¼€å§‹----------------
+		PriceList = TraderRecord(GameControl) #æ‰§è¡Œç™»å½•å¾ªç¯
+		SaveControl.updateLib(PriceList) #ä¿å­˜
+		#---------------ä»»åŠ¡ç»“æŸ----------------
 	time.sleep(1)
 
 

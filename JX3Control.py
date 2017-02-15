@@ -1,17 +1,17 @@
-# -*- coding:gbk -*-  
-#Ë½ÓĞ¿â
+# -*- coding:utf-8 -*-  
+#ç§æœ‰åº“
 import send.sendapis
 import send.sendcore
 import settings
 import settings_pwd
 from debug import *
-#¹«ÓÃ¿â
+#å…¬ç”¨åº“
 import time
 import random
 import os
 import re
 import sqlite3
-#µÚÈı·½¿â
+#ç¬¬ä¸‰æ–¹åº“
 from PIL import ImageGrab
 import pyperclip
 import win32api
@@ -31,7 +31,7 @@ class JX3Control(object):
 	def GetMouse(self,xy):
 		return win32api.GetCursorPos(xy)
 	def Waiting(self,waittime = settings.INT_GLOBAL_WAITING):
-		if settings.INT_ANTI_SCAN ==1:#·´Õì²éÄ£Ê½
+		if settings.INT_ANTI_SCAN ==1:#åä¾¦æŸ¥æ¨¡å¼
 			waittime += random.uniform(settings.FLOAT_WAITING_RANDOM_LOWER,settings.FLOAT_WAITING_RANDOM_UPPER)
 		time.sleep(waittime)
 	def ClickMouse(self,xy):
@@ -78,13 +78,13 @@ class JX3Control(object):
 			res = self.conn.execute("SELECT name,category from item where uid = "+strItemID).fetchall()
 			return res[0]
 		except Exception as err:
-			debug("Ö´ĞĞÊı¾İ¿âÖ¸ÁîÊ§°Ü£ºSELECT name,category from item where uid = "+strItemID+", Ô­Òò£º "+ str(err))
+			debug("æ‰§è¡Œæ•°æ®åº“æŒ‡ä»¤å¤±è´¥ï¼šSELECT name,category from item where uid = "+strItemID+", åŸå› ï¼š "+ str(err))
 			return
 	def KillFile(self,filename):
 		try:
 			os.remove(filename)
 		except Exception as err:
-			debug("É¾³ıÎÄ¼ş´íÎó£¡ÎÄ¼ş£º "+ filename + " ´íÎóĞÅÏ¢£º"+str(err),'¾¯¸æ')
+			debug("åˆ é™¤æ–‡ä»¶é”™è¯¯ï¼æ–‡ä»¶ï¼š "+ filename + " é”™è¯¯ä¿¡æ¯ï¼š"+str(err),'è­¦å‘Š')
 	def ClearData(self):
 		self.PressCtrlA()
 		self.Waiting()
@@ -104,17 +104,17 @@ class JX3Action(object):
 		self.util = settings.util()
 		self.TraderWindow = False
 		self.TraderPage = ''
-		self.loginmode = 'ÏÂÏß'
+		self.loginmode = 'ä¸‹çº¿'
 
 	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=45):
-		#user:ÓÃ»§Ãû
-		#pwd:ÃÜÂë
-		#wait:Ä¬ÈÏµÇÂ½ºóµÈ´ıÊ±¼ä£¬³¬Ê±ÈôÈÔÃ»ÓĞÅĞ¶Ïµ½±êÖ¾ÔòÈÏÎªµÇÂ¼Ê§°Ü:45Ãë
-		self.control.KillFile(settings.AHRECORD_FILENAME) #ÉÏÏßÇ°ÏÈÉ¾³ıAH²å¼ş¼ÇÂ¼
-		debug("¿ªÊ¼µÇÂ¼Ä£¿é£¬ÕËºÅ = "+user+" ÃÜÂë=len("+str(len(pwd))+'),³¬Ê±ÉèÖÃÎª: '+str(wait)+"s.")
+		#user:ç”¨æˆ·å
+		#pwd:å¯†ç 
+		#wait:é»˜è®¤ç™»é™†åç­‰å¾…æ—¶é—´ï¼Œè¶…æ—¶è‹¥ä»æ²¡æœ‰åˆ¤æ–­åˆ°æ ‡å¿—åˆ™è®¤ä¸ºç™»å½•å¤±è´¥:45ç§’
+		self.control.KillFile(settings.AHRECORD_FILENAME) #ä¸Šçº¿å‰å…ˆåˆ é™¤AHæ’ä»¶è®°å½•
+		debug("å¼€å§‹ç™»å½•æ¨¡å—ï¼Œè´¦å· = "+user+" å¯†ç =len("+str(len(pwd))+'),è¶…æ—¶è®¾ç½®ä¸º: '+str(wait)+"s.")
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_USERNAME))
 		self.control.Waiting()
-		self.control.PressCtrlA() #Çå³ıÒÑÓĞÕËºÅĞÅÏ¢
+		self.control.PressCtrlA() #æ¸…é™¤å·²æœ‰è´¦å·ä¿¡æ¯
 		self.control.Waiting()
 		self.control.PressBACK()
 
@@ -130,52 +130,52 @@ class JX3Action(object):
 			time.sleep(1)
 			i += 1
 		if i > wait:
-			#×óÏÂ½ÇÎ÷É½¾Ó°×É«Ò»Ö±ÓĞ£¬µÇÂ¼Ê§°Ü
-			raiseError("µÇÂ¼Ê§°Ü£¬ÕËºÅµÇÂ¼ÖÁ½çÃæÊ±²»ÄÜ·µ»Ø³É¹¦±êÖ¾¡£Çë¾¡¿ì²é¿´³ÌĞò×´Ì¬±ÜÃâÏû·Ñµã¿¨£¡",1)
+			#å·¦ä¸‹è§’è¥¿å±±å±…ç™½è‰²ä¸€ç›´æœ‰ï¼Œç™»å½•å¤±è´¥
+			raiseError("ç™»å½•å¤±è´¥ï¼Œè´¦å·ç™»å½•è‡³ç•Œé¢æ—¶ä¸èƒ½è¿”å›æˆåŠŸæ ‡å¿—ã€‚è¯·å°½å¿«æŸ¥çœ‹ç¨‹åºçŠ¶æ€é¿å…æ¶ˆè´¹ç‚¹å¡ï¼",1)
 			self.control.PressESC()
 			return -1
-		debug("ÕËºÅµÇÂ¼³É¹¦£¡¿ªÊ¼³¢ÊÔµÚÒ»½ÇÉ«µÇÂ¼")
+		debug("è´¦å·ç™»å½•æˆåŠŸï¼å¼€å§‹å°è¯•ç¬¬ä¸€è§’è‰²ç™»å½•")
 		self.control.Waiting()
-		self.control.PressEnter() #»Ø³µ£¬ÒÔµÚÒ»½ÇÉ«µÇÂ¼
+		self.control.PressEnter() #å›è½¦ï¼Œä»¥ç¬¬ä¸€è§’è‰²ç™»å½•
 		i = 0
 		while (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_SUCCESS_LOCATION)) , settings.TUPLE_LOGIN_SUCCESS_PIXEL) == False) and(i<=wait):
 			i += 1
 			time.sleep(1)
 		if i > wait:
-			#×óÏÂ½Ç»¨ÎÆÒ»Ö±Ã»ÓĞ£¬µÇÂ½Ê§°Ü
-			raiseError("µÇÂ¼Ê§°Ü£¬½ÇÉ«µÇÂ¼ÖÁÓÎÏ·Ö÷½çÃæÊ±²»ÄÜ·µ»Ø³É¹¦±êÖ¾¡£Çë¾¡¿ì²é¿´³ÌĞò×´Ì¬±ÜÃâÏû·Ñµã¿¨£¡",1)
+			#å·¦ä¸‹è§’èŠ±çº¹ä¸€ç›´æ²¡æœ‰ï¼Œç™»é™†å¤±è´¥
+			raiseError("ç™»å½•å¤±è´¥ï¼Œè§’è‰²ç™»å½•è‡³æ¸¸æˆä¸»ç•Œé¢æ—¶ä¸èƒ½è¿”å›æˆåŠŸæ ‡å¿—ã€‚è¯·å°½å¿«æŸ¥çœ‹ç¨‹åºçŠ¶æ€é¿å…æ¶ˆè´¹ç‚¹å¡ï¼",1)
 			self.control.PressESC()
 			return -1
-		debug("½ÇÉ«µÇÂ¼³É¹¦£¡")
+		debug("è§’è‰²ç™»å½•æˆåŠŸï¼")
 
-		#¹Ø±Õ³åÏú»î¶¯µÈÒ³Ãæ
+		#å…³é—­å†²é”€æ´»åŠ¨ç­‰é¡µé¢
 		if (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_HOTSPAM_LOCATION)) , settings.TUPLE_LOGIN_HOTSPAM_PIXEL)) == True:
-			debug("¼ì²âµ½ÈÈµã¹ã¸æ´°¿Ú£¬³¢ÊÔ¹Ø±Õ")
+			debug("æ£€æµ‹åˆ°çƒ­ç‚¹å¹¿å‘Šçª—å£ï¼Œå°è¯•å…³é—­")
 			self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_CONFIRM_LOCATION))
 		else:
-			debug("Î´¼ì²âµ½ÈÈµã¹ã¸æ´°¿Ú")
-		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_SUCCESS_LOCATION)) #½¹µã´°¿Ú
-		self.loginmode = 'ÉÏÏß'
+			debug("æœªæ£€æµ‹åˆ°çƒ­ç‚¹å¹¿å‘Šçª—å£")
+		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_SUCCESS_LOCATION)) #ç„¦ç‚¹çª—å£
+		self.loginmode = 'ä¸Šçº¿'
 		return 1
 
 	def logout(self,wait=45):
-		#²ßÂÔ£ºÖ±½ÓÊ¹ÓÃ¿ì½İ¼üµÇ³ö¡£ÇëÉèÖÃÎªCtrl + W
-		debug("¿ªÊ¼µÇ³öÄ£¿é£¬³¬Ê±Ê±¼ä: "+str(wait)+"s.")
+		#ç­–ç•¥ï¼šç›´æ¥ä½¿ç”¨å¿«æ·é”®ç™»å‡ºã€‚è¯·è®¾ç½®ä¸ºCtrl + W
+		debug("å¼€å§‹ç™»å‡ºæ¨¡å—ï¼Œè¶…æ—¶æ—¶é—´: "+str(wait)+"s.")
 		self.control.PressCtrlW()
 		i = 0
 		while (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_CONFIRM_LOCATION)) , settings.TUPLE_LOGIN_CONFRIM_PIXEL)== False) and(i<=wait):
 			i += 1
 			time.sleep(1)
 		if i > wait:
-			raiseError("µÇ³öÊ§°Ü£¡Çë¾¡¿ì²é¿´³ÌĞò×´Ì¬±ÜÃâÏû·Ñµã¿¨£¡",1)
+			raiseError("ç™»å‡ºå¤±è´¥ï¼è¯·å°½å¿«æŸ¥çœ‹ç¨‹åºçŠ¶æ€é¿å…æ¶ˆè´¹ç‚¹å¡ï¼",1)
 			return -1
-		debug("ÕËºÅµÇ³ö³É¹¦£¡")
-		self.loginmode = 'ÏÂÏß'
+		debug("è´¦å·ç™»å‡ºæˆåŠŸï¼")
+		self.loginmode = 'ä¸‹çº¿'
 	def openTrader(self,wait=10):
 		if self.TraderPage==True:
-			debug("ÖØ¸´´ò¿ª½»Ò×ĞĞ£¡",'´íÎó')
+			debug("é‡å¤æ‰“å¼€äº¤æ˜“è¡Œï¼",'é”™è¯¯')
 			return
-		debug("³¢ÊÔ´ò¿ª½»Ò×ĞĞ")
+		debug("å°è¯•æ‰“å¼€äº¤æ˜“è¡Œ")
 		self.control.PressF()
 		self.control.Waiting()
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_DIALOG))
@@ -184,21 +184,21 @@ class JX3Action(object):
 			time.sleep(1)
 			i += 1
 		if i>wait:
-			debug("½»Ò×ĞĞ´ò¿ªÊ§°Ü£¡Çë¼ì²éÉèÖÃ","ÑÏÖØ")
+			debug("äº¤æ˜“è¡Œæ‰“å¼€å¤±è´¥ï¼è¯·æ£€æŸ¥è®¾ç½®","ä¸¥é‡")
 			self.TraderWindow = False
 		else:
-			debug("½»Ò×ĞĞ´ò¿ª³É¹¦£¡")
-			self.TraderPage = 'ÂòÂô'
+			debug("äº¤æ˜“è¡Œæ‰“å¼€æˆåŠŸï¼")
+			self.TraderPage = 'ä¹°å–'
 			self.TraderWindow = True
 
 	def TraderSearchWithoutOCR_Online(self,waittime = 40):
-		#Ê¹ÓÃ·ÇOCRµÄ·½Ê½²éÑ¯ÓÎÏ·ÎïÆ·µÄ¼Û¸ñ
-		#Á÷³Ì£ºÊ×ÏÈÔÚÂòÂôÒ³ÃæËÑË÷ÎïÆ·£¬ÓÉAH²å¼ş¼ÇÂ¼¼Û¸ñ
-		#      ÏÂÏßºó´ÓAH²å¼ş¼ÇÂ¼ÖĞ¶Áµ½¼Û¸ñ
-		#      È±µã£ºÖ»ÄÜ¼ÇÂ¼×îµÍ¼Û£¬²»ÄÜ¼ÇÂ¼´æÁ¿
-		debug("½»Ò×ĞĞÑ¯¼Û¿ªÊ¼")
+		#ä½¿ç”¨éOCRçš„æ–¹å¼æŸ¥è¯¢æ¸¸æˆç‰©å“çš„ä»·æ ¼
+		#æµç¨‹ï¼šé¦–å…ˆåœ¨ä¹°å–é¡µé¢æœç´¢ç‰©å“ï¼Œç”±AHæ’ä»¶è®°å½•ä»·æ ¼
+		#      ä¸‹çº¿åä»AHæ’ä»¶è®°å½•ä¸­è¯»åˆ°ä»·æ ¼
+		#      ç¼ºç‚¹ï¼šåªèƒ½è®°å½•æœ€ä½ä»·ï¼Œä¸èƒ½è®°å½•å­˜é‡
+		debug("äº¤æ˜“è¡Œè¯¢ä»·å¼€å§‹")
 		ItemList = self._TraderMakeList()
-		if self.TraderPage == '¼ÄÊÛ':
+		if self.TraderPage == 'å¯„å”®':
 			self._TraderTurnPage()
 			self.control.Waiting()
 		for ItemName in ItemList:
@@ -213,25 +213,25 @@ class JX3Action(object):
 				#print(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY,self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY))
 				self.control.Waiting(0.5)
 			if i>waittime:
-				debug("½»Ò×ĞĞÑ¯¼Û³¬Ê±£¡ÎïÆ· = " +ItemName +", Ê±¼ä = " + str(waittime),'´íÎó')
+				debug("äº¤æ˜“è¡Œè¯¢ä»·è¶…æ—¶ï¼ç‰©å“ = " +ItemName +", æ—¶é—´ = " + str(waittime),'é”™è¯¯')
 				return
 			else:
-				debug("½»Ò×ĞĞÑ¯¼Û³É¹¦£¡ÎïÆ· = "+ItemName)
+				debug("äº¤æ˜“è¡Œè¯¢ä»·æˆåŠŸï¼ç‰©å“ = "+ItemName)
 	def TraderSearchWithoutOCR_Offline(self):
 		result = []
-		#´ÓAH²å¼şµÄ¼ÇÂ¼ÖĞÕÒµ½ÉÏ´ÎµÄ²éÑ¯¼ÇÂ¼£¬²¢É¾³ı¸ÃÎÄ¼ş´ıÏÂ´Î²éÑ¯
-		debug("³¢ÊÔ´ÓAH²å¼ş¶ÁÈ¡Ñ¯¼Û")
-		if self.loginmode =='ÉÏÏß':
-			debug("ÓÎÏ·Î´ÏÂÏß£¬Ñ¯¼Û´íÎó",'´íÎó')
+		#ä»AHæ’ä»¶çš„è®°å½•ä¸­æ‰¾åˆ°ä¸Šæ¬¡çš„æŸ¥è¯¢è®°å½•ï¼Œå¹¶åˆ é™¤è¯¥æ–‡ä»¶å¾…ä¸‹æ¬¡æŸ¥è¯¢
+		debug("å°è¯•ä»AHæ’ä»¶è¯»å–è¯¢ä»·")
+		if self.loginmode =='ä¸Šçº¿':
+			debug("æ¸¸æˆæœªä¸‹çº¿ï¼Œè¯¢ä»·é”™è¯¯",'é”™è¯¯')
 			return
 		if os.path.exists(settings.AHRECORD_FILENAME) == False:
-			debug("ÕÒ²»µ½AH²å¼ş¼ÇÂ¼£¡",'´íÎó')
+			debug("æ‰¾ä¸åˆ°AHæ’ä»¶è®°å½•ï¼",'é”™è¯¯')
 			return
 		if os.path.exists(settings.ITEMSIDDB_FILENAME) ==False:
-			debug("ÕÒ²»µ½ÎïÆ·ID¿â£¡",'´íÎó')
+			debug("æ‰¾ä¸åˆ°ç‰©å“IDåº“ï¼",'é”™è¯¯')
 			return
 		ahfile = open(settings.AHRECORD_FILENAME,'rb')
-		ahheader = ahfile.read(16) #AH¼ÇÂ¼Í·16×Ö½ÚÎªÍ·ÎÄ¼ş
+		ahheader = ahfile.read(16) #AHè®°å½•å¤´16å­—èŠ‚ä¸ºå¤´æ–‡ä»¶
 		ahrecord = ahfile.read().decode()
 		query = re.compile('\[(.*?)\]=\{\[1\]=\{\[\"nGold\"\]=(.*?),\[\"nSilver\"\]=(.*?),\[\"nCopper\"\]=(.*?),},\[2\]=(.*?),},')
 		for ID,GPrice,SPrice,CPrice,Timestamp in query.findall(ahrecord):
@@ -239,14 +239,14 @@ class JX3Action(object):
 				Name,Category = self.control.GetItemInfo(str(ID))
 				result.append((Name,Category,GPrice,SPrice,CPrice,time.ctime(int(Timestamp))))
 			except Exception as err:
-				debug("Ñ¯¼Ûº¯ÊıÊÔÍ¼²éÑ¯²»´æÔÚµÄID : " +str(ID)+" ´íÎóĞÅÏ¢£º" +str(err),"¾¯¸æ")
+				debug("è¯¢ä»·å‡½æ•°è¯•å›¾æŸ¥è¯¢ä¸å­˜åœ¨çš„ID : " +str(ID)+" é”™è¯¯ä¿¡æ¯ï¼š" +str(err),"è­¦å‘Š")
 		ahfile.close()
-		#self.control.KillFile(settings.AHRECORD_FILENAME) #É¾³ıAH²å¼ş²éÑ¯µÄ¹ıÆÚ¼ÇÂ¼
-		debug("¶ÁÈ¡Ñ¯¼Û³É¹¦£¡")
+		#self.control.KillFile(settings.AHRECORD_FILENAME) #åˆ é™¤AHæ’ä»¶æŸ¥è¯¢çš„è¿‡æœŸè®°å½•
+		debug("è¯»å–è¯¢ä»·æˆåŠŸï¼")
 		return result
 
 	def _TraderMakeList(self):
-		#Î¬»¤ÓûÑ¯¼ÛÎïÆ·µÄlist
+		#ç»´æŠ¤æ¬²è¯¢ä»·ç‰©å“çš„list
 		makelist = []
 		for line in open(settings.QUERYITEM_FILENAME):
 			info = line.strip().split("\t")[0]
@@ -258,13 +258,13 @@ class JX3Action(object):
 				makelist.remove(info)
 		return makelist
 	def _TraderTurnPage(self):
-		if self.TraderPage == 'ÂòÂô':
-			debug("ÇĞ»»½»Ò×Ò³Ãæ£º ÂòÂô-->¼ÄÊÛ")
+		if self.TraderPage == 'ä¹°å–':
+			debug("åˆ‡æ¢äº¤æ˜“é¡µé¢ï¼š ä¹°å–-->å¯„å”®")
 			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_SELLBUTTON))
 			self.control.Waiting()
-			self.TraderPage == '¼ÄÊÛ'
+			self.TraderPage == 'å¯„å”®'
 		else:
-			debug("ÇĞ»»½»Ò×Ò³Ãæ£º ¼ÄÊÛ-->ÂòÂô")
+			debug("åˆ‡æ¢äº¤æ˜“é¡µé¢ï¼š å¯„å”®-->ä¹°å–")
 			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_QUERYBUTTON))
-			self.TraderPage == 'ÂòÂô'
+			self.TraderPage == 'ä¹°å–'
 

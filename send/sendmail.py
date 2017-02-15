@@ -1,27 +1,27 @@
-# -*- coding: gbk -*-
+# -*- coding: utf-8 -*-
 
 import settings_pwd
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 from debug import *
-# µÚÈı·½ SMTP ·şÎñ
+# ç¬¬ä¸‰æ–¹ SMTP æœåŠ¡
 def send(subject,maintext):
 	debug("send.sendmail.send : subject "+subject+" maintext: "+maintext)
 	try:
 		mail_host=settings_pwd.mail_host
 		mail_user=settings_pwd.mail_user
 		mail_pass=settings_pwd.mail_pass
-		sender = mail_user #×Ô¼º·¢¸ø×Ô¼º
+		sender = mail_user #è‡ªå·±å‘ç»™è‡ªå·±
 		receivers = mail_user 
 		message = MIMEText(maintext, 'plain', 'utf-8')
-		message['From'] = Header("×Ô¼º", 'utf-8')
-		message['To'] =  Header("×Ô¼º", 'utf-8')
+		message['From'] = Header("è‡ªå·±", 'utf-8')
+		message['To'] =  Header("è‡ªå·±", 'utf-8')
 		message['Subject'] = Header(subject, 'utf-8')
 		smtpObj = smtplib.SMTP() 
-		smtpObj.connect(mail_host, 25)    # 25 Îª SMTP ¶Ë¿ÚºÅ
+		smtpObj.connect(mail_host, 25)    # 25 ä¸º SMTP ç«¯å£å·
 		smtpObj.login(mail_user,mail_pass)  
 		smtpObj.sendmail(sender, receivers, message.as_string())
-		debug ("ÓÊ¼ş·¢ËÍ³É¹¦")
+		debug ("é‚®ä»¶å‘é€æˆåŠŸ")
 	except Exception as err:
-		debug("ÓÊ¼ş·¢ËÍÊ§°Ü£¡Ô­Òò£º"+str(err))
+		debug("é‚®ä»¶å‘é€å¤±è´¥ï¼åŸå› ï¼š"+str(err))

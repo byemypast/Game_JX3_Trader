@@ -1,4 +1,4 @@
-# -*- coding:gb2312 -*-  
+# -*- coding:utf-8 -*-  
 import pyperclip
 import time
 from send.sendapis import *
