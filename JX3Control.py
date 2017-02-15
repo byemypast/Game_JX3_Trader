@@ -267,3 +267,4 @@ class JX3Action(object):
 			debug("切换交易页面： 寄售-->买卖")
 			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_QUERYBUTTON))
 			self.TraderPage == '买卖'
+

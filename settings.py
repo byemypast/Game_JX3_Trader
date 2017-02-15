@@ -6,9 +6,10 @@ import win32api
 #私有库
 from debug import *
 
-
+#时间设置相关
 INT_GLOBAL_WAITING = 0.2 #每次操作后等待时间
-VERSION = 0.1 #版本号
+INT_RECORDPRICE = 60 * 60 #每隔多少秒登录游戏记录一次价格。至少半小时(1800),推荐一个小时(3600)
+VERSION = 0.2 #版本号
 
 #程序文件设置
 DEBUGNAME = "debug.txt" #调试文件输出名（允许在运行前不存在）
@@ -17,6 +18,7 @@ ITEMSIDDB_FILENAME = 'nameid.db' #物品名称-UID-分类转化数据库
 QUERYITEM_FILENAME = 'query.txt' #欲查询的物品文件
 IGNOREITEM_FILENAME = 'ignore.txt' #查询物品中需要忽略的文件
 AHRECORD_FILENAME = 'D:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
+SAVEDB_FILENAME = 'saverecord.db' #询价保存数据库（允许在运行前不存在）
 
 #反侦测模式设置
 INT_ANTI_SCAN = 1 #反侦测总开关 1 = 开
