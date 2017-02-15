@@ -24,6 +24,9 @@
     <Compile Include="debug.py" />
     <Compile Include="JX3Control.py" />
     <Compile Include="JX3Trader.py" />
+    <Compile Include="Onetime.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="send\sendapis.py" />
     <Compile Include="send\sendcore.py" />
     <Compile Include="send\sendmail.py" />
@@ -39,6 +42,10 @@
     <Folder Include="send\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="debug.txt" />
+    <Content Include="ignore.txt" />
+    <Content Include="nameid.db" />
+    <Content Include="query.txt" />
     <Content Include="recipe.txt" />
     <Content Include="send\sendcore.py.bak" />
     <Content Include="send\sendmail.py.bak" />

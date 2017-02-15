@@ -1,19 +1,27 @@
 # -*- coding:gbk -*-  
+#私有库
 import send.sendapis
 import send.sendcore
-from debug import *
-import pyperclip
-import time
-import random
-import win32api
-import win32con
 import settings
 import settings_pwd
+from debug import *
+#公用库
+import time
+import random
+import os
+import re
+import sqlite3
+#第三方库
 from PIL import ImageGrab
+import pyperclip
+import win32api
+import win32con
+
 
 class JX3Control(object):
+	conn = None
 	def __init__(self):
-		pass
+		self.conn = sqlite3.connect(settings.ITEMSIDDB_FILENAME)
 	def SetClipData(self,strs):
 		pyperclip.copy(strs)
 	def GetClipData(self):
@@ -65,6 +73,23 @@ class JX3Control(object):
 		self.PressCtrlXX(0x11)
 	def PressCtrlV(self):
 		self.PressCtrlXX(0x2F)
+	def GetItemInfo(self,strItemID):
+		try:
+			res = self.conn.execute("SELECT name,category from item where uid = "+strItemID).fetchall()
+			return res[0]
+		except Exception as err:
+			debug("执行数据库指令失败：SELECT name,category from item where uid = "+strItemID+", 原因： "+ str(err))
+			return
+	def KillFile(self,filename):
+		try:
+			os.remove(filename)
+		except Exception as err:
+			debug("删除文件错误！文件： "+ filename + " 错误信息："+str(err),'警告')
+	def ClearData(self):
+		self.PressCtrlA()
+		self.Waiting()
+		self.PressBACK()
+
 
 
 
@@ -73,16 +98,19 @@ class JX3Action(object):
 	util = None
 	TraderWindow = False
 	TraderPage = ''
+	loginmode = ''
 	def __init__(self):
 		self.control = JX3Control()
 		self.util = settings.util()
 		self.TraderWindow = False
 		self.TraderPage = ''
+		self.loginmode = '下线'
 
-	def login(self,user,pwd,wait=45):
+	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=45):
 		#user:用户名
 		#pwd:密码
 		#wait:默认登陆后等待时间，超时若仍没有判断到标志则认为登录失败:45秒
+		self.control.KillFile(settings.AHRECORD_FILENAME) #上线前先删除AH插件记录
 		debug("开始登录模块，账号 = "+user+" 密码=len("+str(len(pwd))+'),超时设置为: '+str(wait)+"s.")
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_USERNAME))
 		self.control.Waiting()
@@ -127,7 +155,9 @@ class JX3Action(object):
 		else:
 			debug("未检测到热点广告窗口")
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_LOGIN_SUCCESS_LOCATION)) #焦点窗口
+		self.loginmode = '上线'
 		return 1
+
 	def logout(self,wait=45):
 		#策略：直接使用快捷键登出。请设置为Ctrl + W
 		debug("开始登出模块，超时时间: "+str(wait)+"s.")
@@ -140,6 +170,7 @@ class JX3Action(object):
 			raiseError("登出失败！请尽快查看程序状态避免消费点卡！",1)
 			return -1
 		debug("账号登出成功！")
+		self.loginmode = '下线'
 	def openTrader(self,wait=10):
 		if self.TraderPage==True:
 			debug("重复打开交易行！",'错误')
@@ -147,7 +178,7 @@ class JX3Action(object):
 		debug("尝试打开交易行")
 		self.control.PressF()
 		self.control.Waiting()
-		self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_DIALOG))
+		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_DIALOG))
 		i = 0
 		while(i<=wait)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_OPENEDPOS)),settings.TUPLE_TRADER_OPENEDPIX)==False):
 			time.sleep(1)
@@ -159,7 +190,75 @@ class JX3Action(object):
 			debug("交易行打开成功！")
 			self.TraderPage = '买卖'
 			self.TraderWindow = True
-	def TraderTurnPage(self):
+
+	def TraderSearchWithoutOCR_Online(self,waittime = 40):
+		#使用非OCR的方式查询游戏物品的价格
+		#流程：首先在买卖页面搜索物品，由AH插件记录价格
+		#      下线后从AH插件记录中读到价格
+		#      缺点：只能记录最低价，不能记录存量
+		debug("交易行询价开始")
+		ItemList = self._TraderMakeList()
+		if self.TraderPage == '寄售':
+			self._TraderTurnPage()
+			self.control.Waiting()
+		for ItemName in ItemList:
+			self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_ITEMINPUT))
+			self.control.Waiting(0.5)
+			self.control.ClearData()
+			self.control.Waiting()
+			self.control.InputData(ItemName)
+			self.control.Waiting()
+			i = 0
+			while (i<=waittime)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY)==True):
+				i+=1
+				#print(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY,self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY))
+				self.control.Waiting(1)
+			if i>waittime:
+				debug("交易行询价超时！物品 = " +ItemName +", 时间 = " + str(waittime),'错误')
+				return
+			else:
+				debug("交易行询价成功！物品 = "+ItemName)
+	def TraderSearchWithoutOCR_Offline(self):
+		result = []
+		#从AH插件的记录中找到上次的查询记录，并删除该文件待下次查询
+		debug("尝试从AH插件读取询价")
+		if self.loginmode =='上线':
+			debug("游戏未下线，询价错误",'错误')
+			return
+		if os.path.exists(settings.AHRECORD_FILENAME) == False:
+			debug("找不到AH插件记录！",'错误')
+			return
+		if os.path.exists(settings.ITEMSIDDB_FILENAME) ==False:
+			debug("找不到物品ID库！",'错误')
+			return
+		ahfile = open(settings.AHRECORD_FILENAME,'rb')
+		ahheader = ahfile.read(16) #AH记录头16字节为头文件
+		ahrecord = ahfile.read().decode()
+		query = re.compile('\[(.*?)\]=\{\[1\]=\{\[\"nGold\"\]=(.*?),\[\"nSilver\"\]=(.*?),\[\"nCopper\"\]=(.*?),},\[2\]=(.*?),},')
+		for ID,GPrice,SPrice,CPrice,Timestamp in query.findall(ahrecord):
+			try:
+				Name,Category = self.control.GetItemInfo(str(ID))
+				result.append((Name,Category,GPrice,SPrice,CPrice,time.ctime(int(Timestamp))))
+			except Exception as err:
+				debug("询价函数试图查询不存在的ID : " +str(ID)+" 错误信息：" +str(err),"警告")
+		ahfile.close()
+		#self.control.KillFile(settings.AHRECORD_FILENAME) #删除AH插件查询的过期记录
+		debug("读取询价成功！")
+		return result
+
+	def _TraderMakeList(self):
+		#维护欲询价物品的list
+		makelist = []
+		for line in open(settings.QUERYITEM_FILENAME):
+			info = line.strip().split("\t")[0]
+			if info!='':
+				makelist.append(info)
+		for line in open(settings.IGNOREITEM_FILENAME):
+			info = line.strip().split(" ")[0]
+			if (info!='')and (info in makelist):
+				makelist.remove(info)
+		return makelist
+	def _TraderTurnPage(self):
 		if self.TraderPage == '买卖':
 			debug("切换交易页面： 买卖-->寄售")
 			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_SELLBUTTON))
@@ -169,14 +268,3 @@ class JX3Action(object):
 			debug("切换交易页面： 寄售-->买卖")
 			self.control.ClickMouse(settings.util.GetIntTuple(settings.TUPLE_TRADER_QUERYBUTTON))
 			self.TraderPage == '买卖'
-	def TraderSearchWithoutOCR(self,ItemName,BagBase,BagPosition):
-		#使用非OCR的方式查询游戏物品的价格
-		#流程：首先在买卖页面搜索物品，由交易行插件记录价格
-		#      再在寄卖页面拟卖出该物品，在价格一栏中复制当前该物品的价格
-		#      这个方法要求背包里必须拥有该物品
-		#      考虑到背包界面、不同包裹起始位置在每个客户端位置、不同角色背包数量、大小在不同角色不同，要求设定背包在屏幕中的位置。
-		#ItemName: 物品名称 BagBase: 背包基量。为一个二维元组（包裹起始基量，增量） BagPosition: 背包位置，为一个二维元组（行，列）。从0开始
-		if self.TraderPage == '寄售':
-			self.TraderTurnPage()
-			self.control.Waiting()
-			self.control.ClickMouse(

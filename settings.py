@@ -1,10 +1,22 @@
 # -*- coding:gbk -*-  
+#公用库
+import os
+#第三方库
 import win32api
+#私有库
+from debug import *
 
 
-DEBUGNAME = "debug.txt" #调试文件输出名
-INT_GLOBAL_WAITING = 0.5 #每次操作后等待时间
+INT_GLOBAL_WAITING = 0.2 #每次操作后等待时间
+VERSION = 0.1 #版本号
 
+#程序文件设置
+DEBUGNAME = "debug.txt" #调试文件输出名（允许在运行前不存在）
+RECIPE_FILENAME = 'recipe.txt' #配方原始文件
+ITEMSIDDB_FILENAME = 'nameid.db' #物品名称-UID-分类转化数据库
+QUERYITEM_FILENAME = 'query.txt' #欲查询的物品文件
+IGNOREITEM_FILENAME = 'ignore.txt' #查询物品中需要忽略的文件
+AHRECORD_FILENAME = 'D:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
 
 #反侦测模式设置
 INT_ANTI_SCAN = 1 #反侦测总开关 1 = 开
@@ -60,8 +72,15 @@ class util():
 		return tuple((int(value[0]* self.Screen_X),int(value[1] * self.Screen_Y)))
 	def CompareTuple(self,x,y,sensitive = 20):
 		#比较两个像素点的相似性，如果非常相似（合之差<20）返回1
-		xsum = 0
-		ysum = 0
+		sum = 0
+		for i in range(0,min(len(x),len(y))):
+			sum += abs(x[i]-y[i])
+		if sum<sensitive:
+			return True
+		else:
+			return False
+
+		'''
 		for i in x:
 			xsum += i
 		for j in y:
@@ -70,4 +89,17 @@ class util():
 			return True
 		else:
 			return False
+		'''
 
+	class SystemCheck():
+		def __init__(self):
+			debug("开始自检。当前版本 "+ str(VERSION))
+			checkname = [IGNOREITEM_FILENAME,ITEMSIDDB_FILENAME,QUERYITEM_FILENAME,RECIPE_FILENAME]
+			checked = True
+			for filename in checkname:
+				if os.path.exists(checkname)==False:
+					debug("程序包完整性检查：" + filename +" 文件不存在！",'错误')
+					checked = False
+			if checked == True:
+				debug("程序包完整性检查成功！")
+			return checked

@@ -4,3 +4,1303 @@ Sun Feb 12 13:06:28 2017[普通]: 角色登录成功！
 Sun Feb 12 13:06:28 2017[普通]: 未检测到热点广告窗口
 Sun Feb 12 13:06:34 2017[普通]: 开始登出模块，超时时间: 45s.
 Sun Feb 12 13:06:40 2017[普通]: 账号登出成功！
+Wed Feb 15 15:33:41 2017[普通]: debug 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:33:52 2017[普通]: debug 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:34:04 2017[普通]: debug 角色登录成功！
+Wed Feb 15 15:34:04 2017[普通]: debug 未检测到热点广告窗口
+Wed Feb 15 15:34:09 2017[普通]: debug 尝试打开交易行
+Wed Feb 15 15:38:03 2017[普通]: debug 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:38:15 2017[普通]: debug 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:38:26 2017[普通]: debug 角色登录成功！
+Wed Feb 15 15:38:26 2017[普通]: debug 未检测到热点广告窗口
+Wed Feb 15 15:38:32 2017[普通]: debug 尝试打开交易行
+Wed Feb 15 15:38:35 2017[普通]: debug 交易行打开成功！
+Wed Feb 15 15:44:14 2017[普通]: debug 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:44:30 2017[普通]: debug 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:44:43 2017[普通]: debug 角色登录成功！
+Wed Feb 15 15:44:43 2017[普通]: debug 未检测到热点广告窗口
+Wed Feb 15 15:44:49 2017[普通]: debug 尝试打开交易行
+Wed Feb 15 15:44:51 2017[普通]: debug 交易行打开成功！
+Wed Feb 15 15:44:56 2017[普通]: debug 交易行询价开始
+Wed Feb 15 15:45:40 2017[普通]: debug 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:45:50 2017[普通]: debug 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:46:02 2017[普通]: debug 角色登录成功！
+Wed Feb 15 15:46:02 2017[普通]: debug 未检测到热点广告窗口
+Wed Feb 15 15:46:08 2017[普通]: debug 尝试打开交易行
+Wed Feb 15 15:46:10 2017[普通]: debug 交易行打开成功！
+Wed Feb 15 15:46:15 2017[普通]: debug 交易行询价开始
+Wed Feb 15 15:46:31 2017[普通]: debug 交易行询价成功！物品 = 天青石
+Wed Feb 15 15:46:47 2017[普通]: debug 交易行询价成功！物品 = 烟雨石
+Wed Feb 15 15:46:52 2017[普通]: debug 交易行询价成功！物品 = 上等五花肉
+Wed Feb 15 15:53:24 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:53:34 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:53:46 2017[普通]: login 角色登录成功！
+Wed Feb 15 15:53:46 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 15:53:52 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 15:53:55 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 15:54:00 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 15:56:49 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 15:57:00 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 15:57:12 2017[普通]: login 角色登录成功！
+Wed Feb 15 15:57:12 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 15:57:17 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 15:57:20 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 15:57:25 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 16:04:22 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 16:04:33 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 16:04:44 2017[普通]: login 角色登录成功！
+Wed Feb 15 16:04:44 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 16:04:50 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 16:04:53 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 16:04:58 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 16:05:11 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 天青石
+Wed Feb 15 16:08:46 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 16:08:56 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 16:09:08 2017[普通]: login 角色登录成功！
+Wed Feb 15 16:09:08 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 16:09:14 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 16:09:17 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 16:09:22 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 16:09:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 天青石
+Wed Feb 15 16:09:32 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 烟雨石
+Wed Feb 15 16:09:37 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 上等五花肉
+Wed Feb 15 16:12:34 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 16:12:44 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 16:12:56 2017[普通]: login 角色登录成功！
+Wed Feb 15 16:12:56 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 16:13:02 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 16:13:05 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 16:13:10 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 16:13:17 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 天青石
+Wed Feb 15 16:13:24 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 烟雨石
+Wed Feb 15 16:13:31 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 上等五花肉
+Wed Feb 15 16:13:38 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 上等里脊肉
+Wed Feb 15 16:13:45 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 紫苏
+Wed Feb 15 16:13:52 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 白术
+Wed Feb 15 16:14:00 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 首山铜
+Wed Feb 15 16:14:07 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 轻容纱
+Wed Feb 15 16:14:14 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 方棋绫
+Wed Feb 15 16:14:21 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 彩锦
+Wed Feb 15 16:14:28 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 精铁锭
+Wed Feb 15 16:14:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 密银锭
+Wed Feb 15 16:14:42 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玉凝药香草
+Wed Feb 15 16:14:49 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铜锭
+Wed Feb 15 16:14:56 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玉髓碎片
+Wed Feb 15 16:15:03 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 古香缎
+Wed Feb 15 16:15:10 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 织锦缎
+Wed Feb 15 16:15:17 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 金沙石
+Wed Feb 15 16:15:24 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 精玉百炼钢
+Wed Feb 15 16:15:31 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 南红珠
+Wed Feb 15 16:15:39 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 枷罗木
+Wed Feb 15 16:15:46 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 细布
+Wed Feb 15 16:15:53 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 岫山玉
+Wed Feb 15 16:16:01 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 水晶芙蓉肉
+Wed Feb 15 16:16:08 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 熟铁锭
+Wed Feb 15 16:16:15 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 月光石
+Wed Feb 15 16:16:22 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 梨花绒
+Wed Feb 15 16:16:29 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 落日绢
+Wed Feb 15 16:16:36 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 娑罗木
+Wed Feb 15 16:16:43 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 上等腰子
+Wed Feb 15 16:16:50 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 九霞缎
+Wed Feb 15 16:16:58 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 突厥玉
+Wed Feb 15 16:17:05 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 黄精
+Wed Feb 15 16:17:12 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 沧海珠
+Wed Feb 15 16:17:20 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 丝绸
+Wed Feb 15 16:17:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 绫罗布卷
+Wed Feb 15 16:17:34 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 生铁锭
+Wed Feb 15 16:17:41 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 绸缎布卷
+Wed Feb 15 16:17:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·铸（外会）
+Wed Feb 15 16:17:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 丝制布卷
+Wed Feb 15 16:18:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 飞凤绶带
+Wed Feb 15 16:18:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 猪皮
+Wed Feb 15 16:18:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 粗布
+Wed Feb 15 16:18:23 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 棉布
+Wed Feb 15 16:18:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 方纹绫
+Wed Feb 15 16:18:37 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 鱼口绫
+Wed Feb 15 16:18:44 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 白编绫
+Wed Feb 15 16:18:51 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 绫罗
+Wed Feb 15 16:18:59 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 水波绫
+Wed Feb 15 16:19:06 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 补心丹
+Wed Feb 15 16:19:13 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 养神丹
+Wed Feb 15 16:19:20 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 轻身丹
+Wed Feb 15 16:19:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 点骨丹
+Wed Feb 15 16:19:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玉枢丹
+Wed Feb 15 16:19:42 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玉璃丹
+Wed Feb 15 16:19:49 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 白信丹
+Wed Feb 15 16:19:56 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 妙香丹
+Wed Feb 15 16:20:03 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 汉宫棋
+Wed Feb 15 16:20:11 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 小天酥
+Wed Feb 15 16:20:18 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 长生粥
+Wed Feb 15 16:20:25 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 凤凰胎
+Wed Feb 15 16:20:32 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 五生盘
+Wed Feb 15 16:20:39 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 水炼犊
+Wed Feb 15 16:20:47 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 清凉月霍碎
+Wed Feb 15 16:20:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 通花软牛肠
+Wed Feb 15 16:21:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 烧尾宴
+Wed Feb 15 16:21:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 中冷泉
+Wed Feb 15 16:21:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·熔锭（疗伤）
+Wed Feb 15 16:21:23 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·熔锭（外伤）
+Wed Feb 15 16:21:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·熔锭（内伤）
+Wed Feb 15 16:21:37 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·磨石（外伤）
+Wed Feb 15 16:21:44 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·磨石（内伤）
+Wed Feb 15 16:21:51 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·磨石（疗伤）
+Wed Feb 15 16:21:59 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·铸（内会）
+Wed Feb 15 16:22:06 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·锻（内会）
+Wed Feb 15 16:22:13 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 彩色布卷
+Wed Feb 15 16:22:20 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 檀木
+Wed Feb 15 16:22:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·锻（外会）
+Wed Feb 15 16:22:34 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·云梦肉
+Wed Feb 15 16:22:41 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铁木
+Wed Feb 15 16:22:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 紫背铅
+Wed Feb 15 16:22:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 红铜
+Wed Feb 15 16:23:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 锡锭
+Wed Feb 15 16:23:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 锡砂
+Wed Feb 15 16:23:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 草节铅
+Wed Feb 15 16:23:23 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 炉甘石
+Wed Feb 15 16:23:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 砂铁
+Wed Feb 15 16:23:37 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 煤炭
+Wed Feb 15 16:23:44 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 银锭
+Wed Feb 15 16:23:51 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 银砂
+Wed Feb 15 16:23:58 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 银礁
+Wed Feb 15 16:24:05 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 翠绿流苏
+Wed Feb 15 16:24:12 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 粗制布卷
+Wed Feb 15 16:24:19 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 虎皮
+Wed Feb 15 16:24:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 衣饰包·披风
+Wed Feb 15 16:24:34 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·玉阳丹
+Wed Feb 15 16:24:41 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·九还丹
+Wed Feb 15 16:24:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·益神丹
+Wed Feb 15 16:24:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·御风丹
+Wed Feb 15 16:25:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·补心丹
+Wed Feb 15 16:25:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·养神丹
+Wed Feb 15 16:25:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·轻身丹
+Wed Feb 15 16:25:24 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·点骨丹
+Wed Feb 15 16:25:31 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·金鳞丹
+Wed Feb 15 16:25:38 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·养魂丹
+Wed Feb 15 16:25:45 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·玉枢丹
+Wed Feb 15 16:25:52 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·玉璃丹
+Wed Feb 15 16:25:59 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·白信丹
+Wed Feb 15 16:26:06 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·妙香丹
+Wed Feb 15 16:26:13 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·唐安啖
+Wed Feb 15 16:26:20 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·箸头春
+Wed Feb 15 16:26:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·葵花鸭
+Wed Feb 15 16:26:34 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·八仙盘
+Wed Feb 15 16:26:41 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·汉宫棋
+Wed Feb 15 16:26:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·小天酥
+Wed Feb 15 16:26:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·长生粥
+Wed Feb 15 16:27:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·凤凰胎
+Wed Feb 15 16:27:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·金乳酥
+Wed Feb 15 16:27:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·鸳鸯鸡
+Wed Feb 15 16:27:23 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·通花软牛肠
+Wed Feb 15 16:27:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·五生盘
+Wed Feb 15 16:27:37 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·水炼犊
+Wed Feb 15 16:27:44 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·清凉月霍碎
+Wed Feb 15 16:27:51 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·烧尾宴
+Wed Feb 15 16:27:58 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 麒麟腰刀
+Wed Feb 15 16:28:05 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 朱雀腰刀
+Wed Feb 15 16:28:12 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 白虎腰刀
+Wed Feb 15 16:28:20 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 青龙腰刀
+Wed Feb 15 16:28:27 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玄武腰刀
+Wed Feb 15 16:28:34 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 烟斗
+Wed Feb 15 16:28:41 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 锅铲
+Wed Feb 15 16:28:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铃铛
+Wed Feb 15 16:28:55 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·风骨·锻（内会）
+Wed Feb 15 16:29:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·风骨·锻（外会）
+Wed Feb 15 16:29:09 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·风骨·铸（内会）
+Wed Feb 15 16:29:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·风骨·铸（外会）
+Wed Feb 15 16:29:23 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·熔锭（疗伤）
+Wed Feb 15 16:29:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·熔锭（外伤）
+Wed Feb 15 16:29:38 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·熔锭（内伤）
+Wed Feb 15 16:29:45 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·磨石（外伤）
+Wed Feb 15 16:29:52 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·磨石（内伤）
+Wed Feb 15 16:29:59 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·磨石（疗伤）
+Wed Feb 15 16:30:06 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·铸（外会）
+Wed Feb 15 16:30:14 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·铸（内会）
+Wed Feb 15 16:30:21 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·锻（内会）
+Wed Feb 15 16:30:28 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 佳·剑胆·锻（外会）
+Wed Feb 15 16:30:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 寻踪觅宝·武器
+Wed Feb 15 16:30:42 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 寻踪觅宝·鞋子
+Wed Feb 15 16:30:49 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 寻踪觅宝·帽子
+Wed Feb 15 16:30:56 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 青铜锭
+Wed Feb 15 16:31:03 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铅锭
+Wed Feb 15 16:31:10 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 锌锭
+Wed Feb 15 16:31:18 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铁偶
+Wed Feb 15 16:31:24 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 铜镜
+Wed Feb 15 16:31:32 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 银精巧饰
+Wed Feb 15 16:31:39 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 灯笼
+Wed Feb 15 16:31:46 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 大红花
+Wed Feb 15 16:31:53 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 箭囊
+Wed Feb 15 16:32:00 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 风筝
+Wed Feb 15 16:32:07 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 风车
+Wed Feb 15 16:32:14 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 包裹
+Wed Feb 15 16:32:21 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 手帕
+Wed Feb 15 16:32:28 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 水囊
+Wed Feb 15 16:32:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 娃娃
+Wed Feb 15 16:32:42 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 香囊
+Wed Feb 15 16:32:50 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 五彩球·蓝
+Wed Feb 15 16:32:57 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 五彩球·赤
+Wed Feb 15 16:33:04 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 蹴鞠
+Wed Feb 15 16:33:10 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 烟雨伞
+Wed Feb 15 16:33:18 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 冷月伞
+Wed Feb 15 16:33:25 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 绫罗绣球
+Wed Feb 15 16:33:32 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 天蚕玉带绒
+Wed Feb 15 16:33:39 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 梨绒落绢包
+Wed Feb 15 16:33:46 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 白染线
+Wed Feb 15 16:33:53 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 挂件包·面部
+Wed Feb 15 16:34:00 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 地黄
+Wed Feb 15 16:34:07 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 挂件包·腰部
+Wed Feb 15 16:34:14 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 菩提木
+Wed Feb 15 16:34:21 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 挂件包·背部
+Wed Feb 15 16:34:28 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍珠缀放
+Wed Feb 15 16:34:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 绢云母
+Wed Feb 15 16:34:42 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 古井泉
+Wed Feb 15 16:34:49 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 纱制布卷
+Wed Feb 15 16:34:56 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 百花布
+Wed Feb 15 16:35:03 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 隐月线
+Wed Feb 15 16:35:11 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 剑胆·纹（化劲）
+Wed Feb 15 16:35:16 2017[普通]: logout 开始登出模块，超时时间: 45s.
+Wed Feb 15 16:35:22 2017[普通]: logout 账号登出成功！
+Wed Feb 15 16:35:22 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:38:15 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:38:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:41:38 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:41:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:43:12 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:43:12 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:43:12 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:36 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:43:36 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:43:36 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:38 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:39 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:43:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:40 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:43:40 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:41 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : <built-in function id> 错误信息：an integer is required (got type str)
+Wed Feb 15 16:43:41 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:46:03 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:46:03 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:46:03 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:03 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153026 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156182 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 66665 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156310 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153282 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156183 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4125 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156311 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153283 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 66666 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153539 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153540 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153094 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153636 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156314 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153031 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 844 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153095 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 908 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156283 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153000 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153032 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153064 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153638 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152969 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153001 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153543 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153065 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3624 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150898 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153544 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150612 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153545 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2866 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150613 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2868 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 849 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153100 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 913 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3638 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153101 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 914 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153284 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3834 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3769 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3475 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153281 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153070 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153102 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 915 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3420 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 862 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3428 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2932 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72829 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 852 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 884 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3693 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3672 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69859 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2931 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 20027 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 853 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153104 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 917 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 902 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72808 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 154061 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153105 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 918 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3784 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3785 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 67836 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 154062 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153074 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153106 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 919 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 71162 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72811 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153011 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153043 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153075 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72235 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156199 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69915 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 909 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 920 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153522 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153044 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153076 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 889 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156200 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153013 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 826 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 890 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3417 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3826 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153014 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 7827 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 20028 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 898 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150635 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 921 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150466 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153535 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153015 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 828 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156315 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153525 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153025 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:46:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3426 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153526 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 922 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2918 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 893 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73274 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3430 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3832 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72812 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3830 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3432 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 894 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153145 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153034 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152954 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152986 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153528 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 831 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4089 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73275 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152955 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152987 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153529 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153083 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156207 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156178 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152956 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152988 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153530 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 833 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153084 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 897 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156208 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 845 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152957 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152989 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153531 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153053 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153534 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156177 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156209 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4087 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153523 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 67316 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153532 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153054 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69914 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4090 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156210 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4091 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152968 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3837 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153533 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153637 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153033 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153639 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153521 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:06 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153183 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153071 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3427 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153279 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 837 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 869 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156180 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156212 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150634 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153016 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153280 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 838 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 870 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:07 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 151655 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153072 错误信息：an integer is required (got type str)
+Wed Feb 15 16:46:07 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:46:58 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:47:33 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:47:36 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:47:39 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:48:43 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153026 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156182 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 66665 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156310 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153282 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156183 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4125 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156311 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153283 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 66666 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153539 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153540 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153094 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153636 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156314 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153031 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 844 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153095 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 908 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156283 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153000 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153032 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153064 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153638 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152969 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153001 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153543 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153065 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3624 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150898 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153544 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150612 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153545 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2866 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150613 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2868 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 849 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153100 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 913 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3638 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153101 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 914 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153284 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3834 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3769 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3475 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153281 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:43 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153070 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153102 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 915 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3420 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 862 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3428 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2932 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72829 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 852 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 884 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3693 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3672 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69859 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2931 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 20027 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 853 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153104 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 917 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 902 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72808 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 154061 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153105 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 918 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3784 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3785 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 67836 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 154062 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153074 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153106 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 919 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 71162 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72811 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153011 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153043 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153075 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72235 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156199 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69915 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 909 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 920 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153522 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153044 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153076 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 889 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156200 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153013 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 826 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 890 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3417 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3826 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:44 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153014 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 7827 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 20028 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 898 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150635 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 921 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150466 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153535 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153015 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 828 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156315 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153525 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153025 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3426 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153526 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 922 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2918 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 893 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73274 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3430 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3832 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 72812 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3830 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3432 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 894 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153145 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153034 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152954 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152986 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153528 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 831 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4089 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73275 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152955 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152987 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153529 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153083 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156207 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156178 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152956 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152988 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153530 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 833 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153084 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 897 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156208 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 845 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152957 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152989 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153531 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153053 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153534 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156177 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156209 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4087 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153523 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 67316 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153532 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153054 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 69914 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4090 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:45 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156210 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 4091 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 152968 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3837 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153533 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153637 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153033 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153639 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153521 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153183 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153071 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 3427 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153279 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 837 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 869 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156180 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 156212 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 150634 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153016 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153280 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 838 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 870 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:46 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 151655 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 153072 错误信息：an integer is required (got type str)
+Wed Feb 15 16:48:46 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:49:19 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:49:19 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:49:19 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:51:59 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:51:59 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:52:00 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:52:00 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:55:52 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:55:52 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:55:52 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:56:04 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:56:04 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:04 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:56:05 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:56:05 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:56:05 2017[普通]: <module> [('玉枢丹', '生活技艺_医术产物', '59', '85', '70', 'Wed Feb 15 16:19:50 2017'), ('珍·鸳鸯鸡', '生活技艺_烹饪产物', '98', '58', '45', 'Wed Feb 15 16:27:31 2017'), ('挂件包·背部', '生活技艺_缝纫产物', '59', '87', '50', 'Wed Feb 15 16:34:36 2017'), ('珍·风骨·锻（外会）', '生活技艺_铸造产物', '1068', '47', '0', 'Wed Feb 15 16:29:17 2017'), ('白术', '生活技艺_医术材料', '0', '93', '86', 'Wed Feb 15 16:14:07 2017'), ('珍·金乳酥', '生活技艺_烹饪产物', '89', '80', '44', 'Wed Feb 15 16:27:24 2017'), ('月锡锭', '生活技艺_铸造产物', '22', '88', '20', 'Wed Feb 15 16:23:16 2017'), ('珍·风骨·锻（内会）', '生活技艺_铸造产物', '841', '70', '0', 'Wed Feb 15 16:29:10 2017'), ('紫苏', '生活技艺_医术材料', '0', '96', '4', 'Wed Feb 15 16:14:00 2017'), ('挂件包·腰部', '生活技艺_缝纫产物', '67', '98', '50', 'Wed Feb 15 16:34:22 2017'), ('佳·水炼犊', '生活技艺_烹饪产物', '305', '0', '20', 'Wed Feb 15 16:27:52 2017'), ('佳·五生盘', '生活技艺_烹饪产物', '180', '0', '50', 'Wed Feb 15 16:27:45 2017'), ('佳·剑胆·铸（外会）', '生活技艺_铸造产物', '1479', '7', '0', 'Wed Feb 15 16:30:21 2017'), ('玉璃丹', '生活技艺_医术产物', '39', '39', '45', 'Wed Feb 15 16:19:57 2017'), ('珍·风骨·铸（外会）', '生活技艺_铸造产物', '1089', '27', '0', 'Wed Feb 15 16:29:31 2017'), ('佳·点骨丹', '生活技艺_医术产物', '145', '49', '50', 'Wed Feb 15 16:25:38 2017'), ('彩锦', '生活技艺_缝纫材料', '1', '97', '35', 'Wed Feb 15 16:14:36 2017'), ('佳·剑胆·铸（内会）', '生活技艺_铸造产物', '1881', '51', '0', 'Wed Feb 15 16:30:28 2017'), ('生铁锭', '生活技艺_铸造产物', '12', '28', '45', 'Wed Feb 15 16:17:49 2017'), ('精玉百炼钢', '生活技艺_铸造产物', '80', '10', '50', 'Wed Feb 15 16:15:39 2017'), ('佳·通花软牛肠', '生活技艺_烹饪产物', '550', '30', '0', 'Wed Feb 15 16:27:38 2017'), ('佳·养神丹', '生活技艺_医术产物', '292', '91', '0', 'Wed Feb 15 16:25:24 2017'), ('剑胆·铸（外会）', '生活技艺_铸造产物', '332', '22', '0', 'Wed Feb 15 16:18:03 2017'), ('佳·玉璃丹', '生活技艺_医术产物', '299', '66', '40', 'Wed Feb 15 16:26:07 2017'), ('清凉月霍碎', '生活技艺_烹饪产物', '38', '36', '22', 'Wed Feb 15 16:21:01 2017'), ('佳·清凉月霍碎', '生活技艺_烹饪产物', '899', '47', '0', 'Wed Feb 15 16:27:59 2017'), ('水炼犊', '生活技艺_烹饪产物', '39', '97', '80', 'Wed Feb 15 16:20:54 2017'), ('剑胆·铸（内会）', '生活技艺_铸造产物', '625', '20', '0', 'Wed Feb 15 16:22:13 2017'), ('图样：细布熊皮靴', '生活技艺_缝纫配方', '188', '58', '0', 'Wed Feb 15 16:16:01 2017'), ('挂件包·面部', '生活技艺_缝纫产物', '96', '91', '0', 'Wed Feb 15 16:34:08 2017'), ('五生盘', '生活技艺_烹饪产物', '35', '10', '4', 'Wed Feb 15 16:20:46 2017'), ('寻踪觅宝·鞋子', '生活技艺_重铸产物', '499', '90', '0', 'Wed Feb 15 16:30:57 2017'), ('佳·烧尾宴', '生活技艺_烹饪产物', '1860', '58', '0', 'Wed Feb 15 16:28:06 2017'), ('绢云母', '生活技艺_缝纫材料', '8', '7', '0', 'Wed Feb 15 16:34:50 2017'), ('寻踪觅宝·帽子', '生活技艺_重铸产物', '599', '76', '0', 'Wed Feb 15 16:31:04 2017'), ('地黄', '生活技艺_缝纫材料', '0', '97', '89', 'Wed Feb 15 16:34:15 2017'), ('飞凤绶带', '生活技艺_缝纫材料', '5', '91', '0', 'Wed Feb 15 16:18:17 2017'), ('佳·剑胆·磨石（外伤）', '生活技艺_铸造产物', '1735', '58', '0', 'Wed Feb 15 16:29:59 2017'), ('银砂', '生活技艺_铸造材料', '8', '79', '65', 'Wed Feb 15 16:24:05 2017'), ('图样：鱼口绫头巾', '生活技艺_缝纫配方', '119', '80', '0', 'Wed Feb 15 16:18:52 2017'), ('佳·剑胆·磨石（内伤）', '生活技艺_铸造产物', '1990', '60', '0', 'Wed Feb 15 16:30:07 2017'), ('银锭', '生活技艺_铸造产物', '43', '99', '35', 'Wed Feb 15 16:23:59 2017'), ('黄精', '生活技艺_医术材料', '3', '2', '55', 'Wed Feb 15 16:17:20 2017'), ('图样：朱雀腰刀', '生活技艺_铸造配方', '3998', '12', '0', 'Wed Feb 15 16:28:20 2017'), ('百花布', '生活技艺_缝纫产物', '41', '99', '0', 'Wed Feb 15 16:35:11 2017'), ('隐月线', '生活技艺_缝纫材料', '6', '50', '35', 'Wed Feb 15 16:35:18 2017'), ('上等腰子', '生活技艺_烹饪材料', '10', '6', '45', 'Wed Feb 15 16:16:58 2017'), ('剑胆·磨石（外伤）', '生活技艺_铸造产物', '413', '7', '0', 'Wed Feb 15 16:21:52 2017'), ('佳·剑胆·磨石（疗伤）', '生活技艺_铸造产物', '1657', '30', '0', 'Wed Feb 15 16:30:14 2017'), ('密银锭', '生活技艺_铸造产物', '90', '0', '0', 'Wed Feb 15 16:23:59 2017'), ('古井泉', '生活技艺_缝纫材料', '19', '46', '0', 'Wed Feb 15 16:34:57 2017'), ('珍珠缀放', '生活技艺_缝纫材料', '26', '29', '70', 'Wed Feb 15 16:34:43 2017'), ('菩提木', '生活技艺_缝纫材料', '16', '65', '60', 'Wed Feb 15 16:34:29 2017'), ('绫罗绣球', '生活技艺_缝纫产物', '75', '4', '54', 'Wed Feb 15 16:33:40 2017'), ('尚·桂枝香囊', '生活技艺_医术产物', '60', '15', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗', '生活技艺_缝纫材料', '0', '14', '70', 'Wed Feb 15 16:19:06 2017'), ('翠绿流苏', '生活技艺_缝纫材料', '22', '96', '0', 'Wed Feb 15 16:24:20 2017'), ('图样：烟雨伞', '生活技艺_缝纫配方', '120', '96', '0', 'Wed Feb 15 16:33:25 2017'), ('图样：蹴鞠', '生活技艺_缝纫配方', '200', '56', '0', 'Wed Feb 15 16:33:18 2017'), ('一捆檀木', '生活技艺_缝纫材料', '199', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('蹴鞠', '生活技艺_缝纫产物', '85', '49', '80', 'Wed Feb 15 16:33:18 2017'), ('五彩球·赤', '节日冬至', '98', '83', '0', 'Wed Feb 15 16:33:11 2017'), ('水波绫', '生活技艺_缝纫材料', '1', '54', '70', 'Wed Feb 15 16:19:13 2017'), ('佳·剑胆·熔锭（外伤）', '生活技艺_铸造产物', '557', '87', '0', 'Wed Feb 15 16:29:45 2017'), ('红铜', '生活技艺_铸造材料', '3', '72', '90', 'Wed Feb 15 16:23:10 2017'), ('锌锭', '生活技艺_铸造产物', '7', '52', '64', 'Wed Feb 15 16:31:25 2017'), ('百花香囊', '生活技艺_医术产物', '5', '47', '0', 'Wed Feb 15 16:32:57 2017'), ('佳·唐安啖', '生活技艺_烹饪产物', '320', '15', '40', 'Wed Feb 15 16:26:28 2017'), ('佳·剑胆·熔锭（内伤）', '生活技艺_铸造产物', '665', '80', '0', 'Wed Feb 15 16:29:52 2017'), ('锡砂', '生活技艺_铸造材料', '1', '44', '50', 'Wed Feb 15 16:23:23 2017'), ('图样：红铜护手', '生活技艺_铸造配方', '118', '83', '0', 'Wed Feb 15 16:23:10 2017'), ('图样：红铜剑', '生活技艺_铸造配方', '120', '16', '0', 'Wed Feb 15 16:23:10 2017'), ('彩色布卷', '生活技艺_缝纫材料', '30', '9', '0', 'Wed Feb 15 16:22:27 2017'), ('佳·箸头春', '生活技艺_烹饪产物', '410000', '0', '0', 'Wed Feb 15 16:26:35 2017'), ('剑胆·熔锭（外伤）', '生活技艺_铸造产物', '87', '48', '50', 'Wed Feb 15 16:21:38 2017'), ('佳·剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '788', '3', '0', 'Wed Feb 15 16:29:38 2017'), ('草节铅', '生活技艺_铸造材料', '0', '87', '93', 'Wed Feb 15 16:23:30 2017'), ('壮骨香囊', '生活技艺_医术产物', '43', '88', '42', 'Wed Feb 15 16:32:57 2017'), ('紫荷香囊', '生活技艺_医术产物', '9', '5', '0', 'Wed Feb 15 16:32:57 2017'), ('烧尾宴', '生活技艺_烹饪产物', '298', '17', '0', 'Wed Feb 15 16:21:16 2017'), ('佳·妙香丹', '生活技艺_医术产物', '274', '97', '0', 'Wed Feb 15 16:26:20 2017'), ('剑胆·熔锭（内伤）', '生活技艺_铸造产物', '63', '46', '60', 'Wed Feb 15 16:21:45 2017'), ('香囊', '安史之乱_枫华谷', '4', '91', '0', 'Wed Feb 15 16:32:57 2017'), ('水晶芙蓉肉', '生活技艺_烹饪材料', '40', '9', '95', 'Wed Feb 15 16:16:15 2017'), ('迷香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('熟铁锭', '生活技艺_铸造产物', '34', '27', '95', 'Wed Feb 15 16:16:22 2017'), ('炉甘石', '生活技艺_铸造材料', '1', '89', '85', 'Wed Feb 15 16:23:38 2017'), ('织锦缎', '生活技艺_缝纫材料', '8', '50', '18', 'Wed Feb 15 16:15:25 2017'), ('佳·玉枢丹', '生活技艺_医术产物', '360', '9', '75', 'Wed Feb 15 16:25:59 2017'), ('剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '46', '99', '49', 'Wed Feb 15 16:21:31 2017'), ('煤炭', '生活技艺_铸造材料', '0', '34', '70', 'Wed Feb 15 16:23:51 2017'), ('玉髓碎片', '生活技能特殊材料', '3', '27', '15', 'Wed Feb 15 16:15:11 2017'), ('点骨丹', '生活技艺_医术产物', '20', '92', '25', 'Wed Feb 15 16:19:42 2017'), ('粗布', '生活技艺_缝纫材料', '0', '97', '75', 'Wed Feb 15 16:18:31 2017'), ('铜锭', '生活技艺_铸造产物', '11', '6', '0', 'Wed Feb 15 16:15:04 2017'), ('中冷泉', '生活技艺_缝纫材料', '0', '14', '99', 'Wed Feb 15 16:21:24 2017'), ('图样：银精巧饰', '生活技艺_铸造配方', '4887', '99', '99', 'Wed Feb 15 16:31:46 2017'), ('养神丹', '生活技艺_医术产物', '39', '38', '45', 'Wed Feb 15 16:19:28 2017'), ('铜镜', '生活技艺_铸造产物', '99', '96', '0', 'Wed Feb 15 16:31:39 2017'), ('五彩球·蓝', '节日冬至', '99', '18', '0', 'Wed Feb 15 16:33:04 2017'), ('铅锭', '生活技艺_铸造产物', '17', '51', '33', 'Wed Feb 15 16:31:18 2017'), ('铸锻图：寻踪觅宝·帽子', '生活技艺_重铸配方', '2500', '0', '0', 'Wed Feb 15 16:31:04 2017'), ('砂铁', '生活技艺_铸造材料', '2', '39', '0', 'Wed Feb 15 16:23:45 2017'), ('寻踪觅宝·武器', '生活技艺_重铸产物', '624', '99', '0', 'Wed Feb 15 16:30:50 2017'), ('娑罗木', '生活技能特殊材料', '98', '29', '0', 'Wed Feb 15 16:16:51 2017'), ('补心丹', '生活技艺_医术产物', '19', '99', '30', 'Wed Feb 15 16:19:21 2017'), ('细布', '生活技艺_缝纫材料', '6', '7', '75', 'Wed Feb 15 16:16:01 2017'), ('珍·风骨·铸（内会）', '生活技艺_铸造产物', '849', '18', '0', 'Wed Feb 15 16:29:24 2017'), ('烟雨石', '生活技艺_铸造材料', '0', '50', '98', 'Wed Feb 15 16:13:39 2017'), ('妙香丹', '生活技艺_医术产物', '39', '39', '84', 'Wed Feb 15 16:20:11 2017'), ('铁木', '生活技艺_缝纫材料', '0', '67', '85', 'Wed Feb 15 16:22:56 2017'), ('首山铜', '生活技艺_铸造材料', '14', '71', '56', 'Wed Feb 15 16:14:14 2017'), ('银礁', '生活技艺_铸造材料', '9', '99', '99', 'Wed Feb 15 16:24:13 2017'), ('水波绫香袋', '生活技艺_缝纫产物', '50', '1', '42', 'Wed Feb 15 16:19:13 2017'), ('锡锭', '生活技艺_铸造产物', '2', '97', '85', 'Wed Feb 15 16:23:16 2017'), ('梨花绒', '生活技艺_缝纫材料', '1', '47', '75', 'Wed Feb 15 16:16:37 2017'), ('虎皮', '生活技艺_缝纫材料', '0', '44', '57', 'Wed Feb 15 16:24:34 2017'), ('图样：青龙腰刀', '生活技艺_铸造配方', '1999', '51', '0', 'Wed Feb 15 16:28:34 2017'), ('桂枝香囊', '生活技艺_医术产物', '40', '89', '50', 'Wed Feb 15 16:32:57 2017'), ('图样：白虎腰刀', '生活技艺_铸造配方', '40', '79', '0', 'Wed Feb 15 16:28:27 2017'), ('猪皮', '生活技艺_缝纫材料', '2', '22', '66', 'Wed Feb 15 16:18:24 2017'), ('青铜锭', '生活技艺_铸造产物', '3', '33', '0', 'Wed Feb 15 16:31:11 2017'), ('剑胆·纹（化劲）', '生活技艺_缝纫产物', '500', '85', '0', 'Wed Feb 15 16:35:26 2017'), ('佳·轻身丹', '生活技艺_医术产物', '500', '48', '0', 'Wed Feb 15 16:25:31 2017'), ('汉宫棋', '生活技艺_烹饪产物', '18', '49', '15', 'Wed Feb 15 16:20:18 2017'), ('佳·汉宫棋', '生活技艺_烹饪产物', '173', '50', '0', 'Wed Feb 15 16:26:56 2017'), ('岫山玉', '生活技能特殊材料', '3', '49', '90', 'Wed Feb 15 16:16:08 2017'), ('棉布', '生活技艺_缝纫材料', '0', '67', '0', 'Wed Feb 15 16:18:38 2017'), ('丝制布卷', '生活技艺_缝纫材料', '17', '2', '50', 'Wed Feb 15 16:18:10 2017'), ('落日绢', '生活技艺_缝纫材料', '1', '59', '6', 'Wed Feb 15 16:16:44 2017'), ('凤凰胎', '生活技艺_烹饪产物', '31', '53', '0', 'Wed Feb 15 16:20:39 2017'), ('佳·凤凰胎', '生活技艺_烹饪产物', '188', '50', '0', 'Wed Feb 15 16:27:17 2017'), ('南红珠', '生活技能特殊材料', '68', '48', '84', 'Wed Feb 15 16:15:46 2017'), ('佳·剑胆·锻（外会）', '生活技艺_铸造产物', '1783', '2', '0', 'Wed Feb 15 16:30:43 2017'), ('珍·九还丹', '生活技艺_医术产物', '90', '15', '40', 'Wed Feb 15 16:24:56 2017'), ('珍·八仙盘', '生活技艺_烹饪产物', '62', '6', '40', 'Wed Feb 15 16:26:49 2017'), ('长生粥', '生活技艺_烹饪产物', '22', '85', '60', 'Wed Feb 15 16:20:32 2017'), ('佳·长生粥', '生活技艺_烹饪产物', '229', '0', '0', 'Wed Feb 15 16:27:10 2017'), ('金沙石', '生活技能特殊材料', '2', '81', '0', 'Wed Feb 15 16:15:32 2017'), ('方纹绫', '生活技艺_缝纫材料', '0', '71', '66', 'Wed Feb 15 16:18:45 2017'), ('佳·剑胆·锻（内会）', '生活技艺_铸造产物', '1998', '8', '0', 'Wed Feb 15 16:30:35 2017'), ('紫背铅', '生活技艺_铸造材料', '0', '4', '84', 'Wed Feb 15 16:23:03 2017'), ('珍·御风丹', '生活技艺_医术产物', '144', '62', '50', 'Wed Feb 15 16:25:10 2017'), ('白编绫', '生活技艺_缝纫材料', '4', '92', '65', 'Wed Feb 15 16:18:59 2017'), ('小天酥', '生活技艺_烹饪产物', '20', '99', '90', 'Wed Feb 15 16:20:25 2017'), ('佳·小天酥', '生活技艺_烹饪产物', '485', '48', '50', 'Wed Feb 15 16:27:03 2017'), ('枷罗木', '生活技能特殊材料', '3', '94', '70', 'Wed Feb 15 16:15:54 2017'), ('剑胆·锻（外会）', '生活技艺_铸造产物', '597', '71', '0', 'Wed Feb 15 16:22:42 2017'), ('月光石', '生活技能特殊材料', '99', '98', '66', 'Wed Feb 15 16:16:29 2017'), ('珍·云梦肉', '生活技艺_烹饪产物', '93', '9', '20', 'Wed Feb 15 16:22:49 2017'), ('珍·益神丹', '生活技艺_医术产物', '150', '3', '35', 'Wed Feb 15 16:25:03 2017'), ('绸缎布卷', '生活技艺_缝纫材料', '17', '74', '90', 'Wed Feb 15 16:17:56 2017'), ('古香缎', '生活技艺_缝纫材料', '1', '19', '42', 'Wed Feb 15 16:15:18 2017'), ('铃铛', '帮会', '449', '73', '0', 'Wed Feb 15 16:29:03 2017'), ('突厥玉', '生活技能特殊材料', '5', '95', '75', 'Wed Feb 15 16:17:12 2017'), ('剑胆·锻（内会）', '生活技艺_铸造产物', '316', '8', '0', 'Wed Feb 15 16:22:20 2017'), ('檀香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗布卷', '生活技艺_缝纫材料', '18', '7', '80', 'Wed Feb 15 16:17:41 2017'), ('珍·玉阳丹', '生活技艺_医术产物', '120', '10', '15', 'Wed Feb 15 16:24:49 2017'), ('纱制布卷', '生活技艺_缝纫材料', '3', '50', '92', 'Wed Feb 15 16:35:04 2017'), ('通花软牛肠', '生活技艺_烹饪产物', '23', '69', '50', 'Wed Feb 15 16:21:09 2017'), ('图样：麒麟腰刀', '生活技艺_铸造配方', '3899', '93', '0', 'Wed Feb 15 16:28:13 2017'), ('沧海珠', '生活技能特殊材料', '8', '14', '90', 'Wed Feb 15 16:17:27 2017'), ('白信丹', '生活技艺_医术产物', '41', '0', '0', 'Wed Feb 15 16:20:04 2017'), ('佳·补心丹', '生活技艺_医术产物', '282', '93', '33', 'Wed Feb 15 16:25:17 2017'), ('佳·白信丹', '生活技艺_医术产物', '700', '77', '75', 'Wed Feb 15 16:26:14 2017'), ('九霞缎', '生活技艺_缝纫材料', '13', '62', '88', 'Wed Feb 15 16:17:05 2017'), ('佳·剑胆·纹（化劲）', '生活技艺_缝纫产物', '1500', '65', '0', 'Wed Feb 15 16:35:26 2017'), ('剑胆·磨石（内伤）', '生活技艺_铸造产物', '665', '62', '0', 'Wed Feb 15 16:21:59 2017'), ('檀木', '生活技艺_缝纫材料', '3', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('上等五花肉', '生活技艺_烹饪材料', '1', '95', '40', 'Wed Feb 15 16:13:46 2017'), ('丝绸', '生活技艺_缝纫材料', '0', '58', '85', 'Wed Feb 15 16:17:34 2017'), ('轻容纱', '生活技艺_缝纫材料', '0', '54', '99', 'Wed Feb 15 16:14:22 2017'), ('珍·葵花鸭', '生活技艺_烹饪产物', '80', '5', '60', 'Wed Feb 15 16:26:42 2017'), ('珍·养魂丹', '生活技艺_医术产物', '149', '63', '75', 'Wed Feb 15 16:25:53 2017'), ('铸锻图：寻踪觅宝·鞋子', '生活技艺_重铸配方', '300', '36', '0', 'Wed Feb 15 16:30:57 2017'), ('轻身丹', '生活技艺_医术产物', '20', '45', '70', 'Wed Feb 15 16:19:35 2017'), ('上等里脊肉', '生活技艺_烹饪材料', '0', '86', '42', 'Wed Feb 15 16:13:53 2017'), ('鱼口绫', '生活技艺_缝纫材料', '2', '72', '50', 'Wed Feb 15 16:18:52 2017'), ('方棋绫', '生活技艺_缝纫材料', '0', '58', '0', 'Wed Feb 15 16:14:29 2017'), ('衣饰包·披风', '生活技艺_缝纫产物', '119', '25', '0', 'Wed Feb 15 16:24:41 2017'), ('剑胆·磨石（疗伤）', '生活技艺_铸造产物', '364', '89', '0', 'Wed Feb 15 16:22:06 2017')]
+Wed Feb 15 16:57:16 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:57:16 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:16 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:57:16 2017[普通]: <module> [('玉枢丹', '生活技艺_医术产物', '59', '85', '70', 'Wed Feb 15 16:19:50 2017'), ('珍·鸳鸯鸡', '生活技艺_烹饪产物', '98', '58', '45', 'Wed Feb 15 16:27:31 2017'), ('挂件包·背部', '生活技艺_缝纫产物', '59', '87', '50', 'Wed Feb 15 16:34:36 2017'), ('珍·风骨·锻（外会）', '生活技艺_铸造产物', '1068', '47', '0', 'Wed Feb 15 16:29:17 2017'), ('白术', '生活技艺_医术材料', '0', '93', '86', 'Wed Feb 15 16:14:07 2017'), ('珍·金乳酥', '生活技艺_烹饪产物', '89', '80', '44', 'Wed Feb 15 16:27:24 2017'), ('月锡锭', '生活技艺_铸造产物', '22', '88', '20', 'Wed Feb 15 16:23:16 2017'), ('珍·风骨·锻（内会）', '生活技艺_铸造产物', '841', '70', '0', 'Wed Feb 15 16:29:10 2017'), ('紫苏', '生活技艺_医术材料', '0', '96', '4', 'Wed Feb 15 16:14:00 2017'), ('挂件包·腰部', '生活技艺_缝纫产物', '67', '98', '50', 'Wed Feb 15 16:34:22 2017'), ('佳·水炼犊', '生活技艺_烹饪产物', '305', '0', '20', 'Wed Feb 15 16:27:52 2017'), ('佳·五生盘', '生活技艺_烹饪产物', '180', '0', '50', 'Wed Feb 15 16:27:45 2017'), ('佳·剑胆·铸（外会）', '生活技艺_铸造产物', '1479', '7', '0', 'Wed Feb 15 16:30:21 2017'), ('玉璃丹', '生活技艺_医术产物', '39', '39', '45', 'Wed Feb 15 16:19:57 2017'), ('珍·风骨·铸（外会）', '生活技艺_铸造产物', '1089', '27', '0', 'Wed Feb 15 16:29:31 2017'), ('佳·点骨丹', '生活技艺_医术产物', '145', '49', '50', 'Wed Feb 15 16:25:38 2017'), ('彩锦', '生活技艺_缝纫材料', '1', '97', '35', 'Wed Feb 15 16:14:36 2017'), ('佳·剑胆·铸（内会）', '生活技艺_铸造产物', '1881', '51', '0', 'Wed Feb 15 16:30:28 2017'), ('生铁锭', '生活技艺_铸造产物', '12', '28', '45', 'Wed Feb 15 16:17:49 2017'), ('精玉百炼钢', '生活技艺_铸造产物', '80', '10', '50', 'Wed Feb 15 16:15:39 2017'), ('佳·通花软牛肠', '生活技艺_烹饪产物', '550', '30', '0', 'Wed Feb 15 16:27:38 2017'), ('佳·养神丹', '生活技艺_医术产物', '292', '91', '0', 'Wed Feb 15 16:25:24 2017'), ('剑胆·铸（外会）', '生活技艺_铸造产物', '332', '22', '0', 'Wed Feb 15 16:18:03 2017'), ('佳·玉璃丹', '生活技艺_医术产物', '299', '66', '40', 'Wed Feb 15 16:26:07 2017'), ('清凉月霍碎', '生活技艺_烹饪产物', '38', '36', '22', 'Wed Feb 15 16:21:01 2017'), ('佳·清凉月霍碎', '生活技艺_烹饪产物', '899', '47', '0', 'Wed Feb 15 16:27:59 2017'), ('水炼犊', '生活技艺_烹饪产物', '39', '97', '80', 'Wed Feb 15 16:20:54 2017'), ('剑胆·铸（内会）', '生活技艺_铸造产物', '625', '20', '0', 'Wed Feb 15 16:22:13 2017'), ('图样：细布熊皮靴', '生活技艺_缝纫配方', '188', '58', '0', 'Wed Feb 15 16:16:01 2017'), ('挂件包·面部', '生活技艺_缝纫产物', '96', '91', '0', 'Wed Feb 15 16:34:08 2017'), ('五生盘', '生活技艺_烹饪产物', '35', '10', '4', 'Wed Feb 15 16:20:46 2017'), ('寻踪觅宝·鞋子', '生活技艺_重铸产物', '499', '90', '0', 'Wed Feb 15 16:30:57 2017'), ('佳·烧尾宴', '生活技艺_烹饪产物', '1860', '58', '0', 'Wed Feb 15 16:28:06 2017'), ('绢云母', '生活技艺_缝纫材料', '8', '7', '0', 'Wed Feb 15 16:34:50 2017'), ('寻踪觅宝·帽子', '生活技艺_重铸产物', '599', '76', '0', 'Wed Feb 15 16:31:04 2017'), ('地黄', '生活技艺_缝纫材料', '0', '97', '89', 'Wed Feb 15 16:34:15 2017'), ('飞凤绶带', '生活技艺_缝纫材料', '5', '91', '0', 'Wed Feb 15 16:18:17 2017'), ('佳·剑胆·磨石（外伤）', '生活技艺_铸造产物', '1735', '58', '0', 'Wed Feb 15 16:29:59 2017'), ('银砂', '生活技艺_铸造材料', '8', '79', '65', 'Wed Feb 15 16:24:05 2017'), ('图样：鱼口绫头巾', '生活技艺_缝纫配方', '119', '80', '0', 'Wed Feb 15 16:18:52 2017'), ('佳·剑胆·磨石（内伤）', '生活技艺_铸造产物', '1990', '60', '0', 'Wed Feb 15 16:30:07 2017'), ('银锭', '生活技艺_铸造产物', '43', '99', '35', 'Wed Feb 15 16:23:59 2017'), ('黄精', '生活技艺_医术材料', '3', '2', '55', 'Wed Feb 15 16:17:20 2017'), ('图样：朱雀腰刀', '生活技艺_铸造配方', '3998', '12', '0', 'Wed Feb 15 16:28:20 2017'), ('百花布', '生活技艺_缝纫产物', '41', '99', '0', 'Wed Feb 15 16:35:11 2017'), ('隐月线', '生活技艺_缝纫材料', '6', '50', '35', 'Wed Feb 15 16:35:18 2017'), ('上等腰子', '生活技艺_烹饪材料', '10', '6', '45', 'Wed Feb 15 16:16:58 2017'), ('剑胆·磨石（外伤）', '生活技艺_铸造产物', '413', '7', '0', 'Wed Feb 15 16:21:52 2017'), ('佳·剑胆·磨石（疗伤）', '生活技艺_铸造产物', '1657', '30', '0', 'Wed Feb 15 16:30:14 2017'), ('密银锭', '生活技艺_铸造产物', '90', '0', '0', 'Wed Feb 15 16:23:59 2017'), ('古井泉', '生活技艺_缝纫材料', '19', '46', '0', 'Wed Feb 15 16:34:57 2017'), ('珍珠缀放', '生活技艺_缝纫材料', '26', '29', '70', 'Wed Feb 15 16:34:43 2017'), ('菩提木', '生活技艺_缝纫材料', '16', '65', '60', 'Wed Feb 15 16:34:29 2017'), ('绫罗绣球', '生活技艺_缝纫产物', '75', '4', '54', 'Wed Feb 15 16:33:40 2017'), ('尚·桂枝香囊', '生活技艺_医术产物', '60', '15', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗', '生活技艺_缝纫材料', '0', '14', '70', 'Wed Feb 15 16:19:06 2017'), ('翠绿流苏', '生活技艺_缝纫材料', '22', '96', '0', 'Wed Feb 15 16:24:20 2017'), ('图样：烟雨伞', '生活技艺_缝纫配方', '120', '96', '0', 'Wed Feb 15 16:33:25 2017'), ('图样：蹴鞠', '生活技艺_缝纫配方', '200', '56', '0', 'Wed Feb 15 16:33:18 2017'), ('一捆檀木', '生活技艺_缝纫材料', '199', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('蹴鞠', '生活技艺_缝纫产物', '85', '49', '80', 'Wed Feb 15 16:33:18 2017'), ('五彩球·赤', '节日冬至', '98', '83', '0', 'Wed Feb 15 16:33:11 2017'), ('水波绫', '生活技艺_缝纫材料', '1', '54', '70', 'Wed Feb 15 16:19:13 2017'), ('佳·剑胆·熔锭（外伤）', '生活技艺_铸造产物', '557', '87', '0', 'Wed Feb 15 16:29:45 2017'), ('红铜', '生活技艺_铸造材料', '3', '72', '90', 'Wed Feb 15 16:23:10 2017'), ('锌锭', '生活技艺_铸造产物', '7', '52', '64', 'Wed Feb 15 16:31:25 2017'), ('百花香囊', '生活技艺_医术产物', '5', '47', '0', 'Wed Feb 15 16:32:57 2017'), ('佳·唐安啖', '生活技艺_烹饪产物', '320', '15', '40', 'Wed Feb 15 16:26:28 2017'), ('佳·剑胆·熔锭（内伤）', '生活技艺_铸造产物', '665', '80', '0', 'Wed Feb 15 16:29:52 2017'), ('锡砂', '生活技艺_铸造材料', '1', '44', '50', 'Wed Feb 15 16:23:23 2017'), ('图样：红铜护手', '生活技艺_铸造配方', '118', '83', '0', 'Wed Feb 15 16:23:10 2017'), ('图样：红铜剑', '生活技艺_铸造配方', '120', '16', '0', 'Wed Feb 15 16:23:10 2017'), ('彩色布卷', '生活技艺_缝纫材料', '30', '9', '0', 'Wed Feb 15 16:22:27 2017'), ('佳·箸头春', '生活技艺_烹饪产物', '410000', '0', '0', 'Wed Feb 15 16:26:35 2017'), ('剑胆·熔锭（外伤）', '生活技艺_铸造产物', '87', '48', '50', 'Wed Feb 15 16:21:38 2017'), ('佳·剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '788', '3', '0', 'Wed Feb 15 16:29:38 2017'), ('草节铅', '生活技艺_铸造材料', '0', '87', '93', 'Wed Feb 15 16:23:30 2017'), ('壮骨香囊', '生活技艺_医术产物', '43', '88', '42', 'Wed Feb 15 16:32:57 2017'), ('紫荷香囊', '生活技艺_医术产物', '9', '5', '0', 'Wed Feb 15 16:32:57 2017'), ('烧尾宴', '生活技艺_烹饪产物', '298', '17', '0', 'Wed Feb 15 16:21:16 2017'), ('佳·妙香丹', '生活技艺_医术产物', '274', '97', '0', 'Wed Feb 15 16:26:20 2017'), ('剑胆·熔锭（内伤）', '生活技艺_铸造产物', '63', '46', '60', 'Wed Feb 15 16:21:45 2017'), ('香囊', '安史之乱_枫华谷', '4', '91', '0', 'Wed Feb 15 16:32:57 2017'), ('水晶芙蓉肉', '生活技艺_烹饪材料', '40', '9', '95', 'Wed Feb 15 16:16:15 2017'), ('迷香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('熟铁锭', '生活技艺_铸造产物', '34', '27', '95', 'Wed Feb 15 16:16:22 2017'), ('炉甘石', '生活技艺_铸造材料', '1', '89', '85', 'Wed Feb 15 16:23:38 2017'), ('织锦缎', '生活技艺_缝纫材料', '8', '50', '18', 'Wed Feb 15 16:15:25 2017'), ('佳·玉枢丹', '生活技艺_医术产物', '360', '9', '75', 'Wed Feb 15 16:25:59 2017'), ('剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '46', '99', '49', 'Wed Feb 15 16:21:31 2017'), ('煤炭', '生活技艺_铸造材料', '0', '34', '70', 'Wed Feb 15 16:23:51 2017'), ('玉髓碎片', '生活技能特殊材料', '3', '27', '15', 'Wed Feb 15 16:15:11 2017'), ('点骨丹', '生活技艺_医术产物', '20', '92', '25', 'Wed Feb 15 16:19:42 2017'), ('粗布', '生活技艺_缝纫材料', '0', '97', '75', 'Wed Feb 15 16:18:31 2017'), ('铜锭', '生活技艺_铸造产物', '11', '6', '0', 'Wed Feb 15 16:15:04 2017'), ('中冷泉', '生活技艺_缝纫材料', '0', '14', '99', 'Wed Feb 15 16:21:24 2017'), ('图样：银精巧饰', '生活技艺_铸造配方', '4887', '99', '99', 'Wed Feb 15 16:31:46 2017'), ('养神丹', '生活技艺_医术产物', '39', '38', '45', 'Wed Feb 15 16:19:28 2017'), ('铜镜', '生活技艺_铸造产物', '99', '96', '0', 'Wed Feb 15 16:31:39 2017'), ('五彩球·蓝', '节日冬至', '99', '18', '0', 'Wed Feb 15 16:33:04 2017'), ('铅锭', '生活技艺_铸造产物', '17', '51', '33', 'Wed Feb 15 16:31:18 2017'), ('铸锻图：寻踪觅宝·帽子', '生活技艺_重铸配方', '2500', '0', '0', 'Wed Feb 15 16:31:04 2017'), ('砂铁', '生活技艺_铸造材料', '2', '39', '0', 'Wed Feb 15 16:23:45 2017'), ('寻踪觅宝·武器', '生活技艺_重铸产物', '624', '99', '0', 'Wed Feb 15 16:30:50 2017'), ('娑罗木', '生活技能特殊材料', '98', '29', '0', 'Wed Feb 15 16:16:51 2017'), ('补心丹', '生活技艺_医术产物', '19', '99', '30', 'Wed Feb 15 16:19:21 2017'), ('细布', '生活技艺_缝纫材料', '6', '7', '75', 'Wed Feb 15 16:16:01 2017'), ('珍·风骨·铸（内会）', '生活技艺_铸造产物', '849', '18', '0', 'Wed Feb 15 16:29:24 2017'), ('烟雨石', '生活技艺_铸造材料', '0', '50', '98', 'Wed Feb 15 16:13:39 2017'), ('妙香丹', '生活技艺_医术产物', '39', '39', '84', 'Wed Feb 15 16:20:11 2017'), ('铁木', '生活技艺_缝纫材料', '0', '67', '85', 'Wed Feb 15 16:22:56 2017'), ('首山铜', '生活技艺_铸造材料', '14', '71', '56', 'Wed Feb 15 16:14:14 2017'), ('银礁', '生活技艺_铸造材料', '9', '99', '99', 'Wed Feb 15 16:24:13 2017'), ('水波绫香袋', '生活技艺_缝纫产物', '50', '1', '42', 'Wed Feb 15 16:19:13 2017'), ('锡锭', '生活技艺_铸造产物', '2', '97', '85', 'Wed Feb 15 16:23:16 2017'), ('梨花绒', '生活技艺_缝纫材料', '1', '47', '75', 'Wed Feb 15 16:16:37 2017'), ('虎皮', '生活技艺_缝纫材料', '0', '44', '57', 'Wed Feb 15 16:24:34 2017'), ('图样：青龙腰刀', '生活技艺_铸造配方', '1999', '51', '0', 'Wed Feb 15 16:28:34 2017'), ('桂枝香囊', '生活技艺_医术产物', '40', '89', '50', 'Wed Feb 15 16:32:57 2017'), ('图样：白虎腰刀', '生活技艺_铸造配方', '40', '79', '0', 'Wed Feb 15 16:28:27 2017'), ('猪皮', '生活技艺_缝纫材料', '2', '22', '66', 'Wed Feb 15 16:18:24 2017'), ('青铜锭', '生活技艺_铸造产物', '3', '33', '0', 'Wed Feb 15 16:31:11 2017'), ('剑胆·纹（化劲）', '生活技艺_缝纫产物', '500', '85', '0', 'Wed Feb 15 16:35:26 2017'), ('佳·轻身丹', '生活技艺_医术产物', '500', '48', '0', 'Wed Feb 15 16:25:31 2017'), ('汉宫棋', '生活技艺_烹饪产物', '18', '49', '15', 'Wed Feb 15 16:20:18 2017'), ('佳·汉宫棋', '生活技艺_烹饪产物', '173', '50', '0', 'Wed Feb 15 16:26:56 2017'), ('岫山玉', '生活技能特殊材料', '3', '49', '90', 'Wed Feb 15 16:16:08 2017'), ('棉布', '生活技艺_缝纫材料', '0', '67', '0', 'Wed Feb 15 16:18:38 2017'), ('丝制布卷', '生活技艺_缝纫材料', '17', '2', '50', 'Wed Feb 15 16:18:10 2017'), ('落日绢', '生活技艺_缝纫材料', '1', '59', '6', 'Wed Feb 15 16:16:44 2017'), ('凤凰胎', '生活技艺_烹饪产物', '31', '53', '0', 'Wed Feb 15 16:20:39 2017'), ('佳·凤凰胎', '生活技艺_烹饪产物', '188', '50', '0', 'Wed Feb 15 16:27:17 2017'), ('南红珠', '生活技能特殊材料', '68', '48', '84', 'Wed Feb 15 16:15:46 2017'), ('佳·剑胆·锻（外会）', '生活技艺_铸造产物', '1783', '2', '0', 'Wed Feb 15 16:30:43 2017'), ('珍·九还丹', '生活技艺_医术产物', '90', '15', '40', 'Wed Feb 15 16:24:56 2017'), ('珍·八仙盘', '生活技艺_烹饪产物', '62', '6', '40', 'Wed Feb 15 16:26:49 2017'), ('长生粥', '生活技艺_烹饪产物', '22', '85', '60', 'Wed Feb 15 16:20:32 2017'), ('佳·长生粥', '生活技艺_烹饪产物', '229', '0', '0', 'Wed Feb 15 16:27:10 2017'), ('金沙石', '生活技能特殊材料', '2', '81', '0', 'Wed Feb 15 16:15:32 2017'), ('方纹绫', '生活技艺_缝纫材料', '0', '71', '66', 'Wed Feb 15 16:18:45 2017'), ('佳·剑胆·锻（内会）', '生活技艺_铸造产物', '1998', '8', '0', 'Wed Feb 15 16:30:35 2017'), ('紫背铅', '生活技艺_铸造材料', '0', '4', '84', 'Wed Feb 15 16:23:03 2017'), ('珍·御风丹', '生活技艺_医术产物', '144', '62', '50', 'Wed Feb 15 16:25:10 2017'), ('白编绫', '生活技艺_缝纫材料', '4', '92', '65', 'Wed Feb 15 16:18:59 2017'), ('小天酥', '生活技艺_烹饪产物', '20', '99', '90', 'Wed Feb 15 16:20:25 2017'), ('佳·小天酥', '生活技艺_烹饪产物', '485', '48', '50', 'Wed Feb 15 16:27:03 2017'), ('枷罗木', '生活技能特殊材料', '3', '94', '70', 'Wed Feb 15 16:15:54 2017'), ('剑胆·锻（外会）', '生活技艺_铸造产物', '597', '71', '0', 'Wed Feb 15 16:22:42 2017'), ('月光石', '生活技能特殊材料', '99', '98', '66', 'Wed Feb 15 16:16:29 2017'), ('珍·云梦肉', '生活技艺_烹饪产物', '93', '9', '20', 'Wed Feb 15 16:22:49 2017'), ('珍·益神丹', '生活技艺_医术产物', '150', '3', '35', 'Wed Feb 15 16:25:03 2017'), ('绸缎布卷', '生活技艺_缝纫材料', '17', '74', '90', 'Wed Feb 15 16:17:56 2017'), ('古香缎', '生活技艺_缝纫材料', '1', '19', '42', 'Wed Feb 15 16:15:18 2017'), ('铃铛', '帮会', '449', '73', '0', 'Wed Feb 15 16:29:03 2017'), ('突厥玉', '生活技能特殊材料', '5', '95', '75', 'Wed Feb 15 16:17:12 2017'), ('剑胆·锻（内会）', '生活技艺_铸造产物', '316', '8', '0', 'Wed Feb 15 16:22:20 2017'), ('檀香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗布卷', '生活技艺_缝纫材料', '18', '7', '80', 'Wed Feb 15 16:17:41 2017'), ('珍·玉阳丹', '生活技艺_医术产物', '120', '10', '15', 'Wed Feb 15 16:24:49 2017'), ('纱制布卷', '生活技艺_缝纫材料', '3', '50', '92', 'Wed Feb 15 16:35:04 2017'), ('通花软牛肠', '生活技艺_烹饪产物', '23', '69', '50', 'Wed Feb 15 16:21:09 2017'), ('图样：麒麟腰刀', '生活技艺_铸造配方', '3899', '93', '0', 'Wed Feb 15 16:28:13 2017'), ('沧海珠', '生活技能特殊材料', '8', '14', '90', 'Wed Feb 15 16:17:27 2017'), ('白信丹', '生活技艺_医术产物', '41', '0', '0', 'Wed Feb 15 16:20:04 2017'), ('佳·补心丹', '生活技艺_医术产物', '282', '93', '33', 'Wed Feb 15 16:25:17 2017'), ('佳·白信丹', '生活技艺_医术产物', '700', '77', '75', 'Wed Feb 15 16:26:14 2017'), ('九霞缎', '生活技艺_缝纫材料', '13', '62', '88', 'Wed Feb 15 16:17:05 2017'), ('佳·剑胆·纹（化劲）', '生活技艺_缝纫产物', '1500', '65', '0', 'Wed Feb 15 16:35:26 2017'), ('剑胆·磨石（内伤）', '生活技艺_铸造产物', '665', '62', '0', 'Wed Feb 15 16:21:59 2017'), ('檀木', '生活技艺_缝纫材料', '3', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('上等五花肉', '生活技艺_烹饪材料', '1', '95', '40', 'Wed Feb 15 16:13:46 2017'), ('丝绸', '生活技艺_缝纫材料', '0', '58', '85', 'Wed Feb 15 16:17:34 2017'), ('轻容纱', '生活技艺_缝纫材料', '0', '54', '99', 'Wed Feb 15 16:14:22 2017'), ('珍·葵花鸭', '生活技艺_烹饪产物', '80', '5', '60', 'Wed Feb 15 16:26:42 2017'), ('珍·养魂丹', '生活技艺_医术产物', '149', '63', '75', 'Wed Feb 15 16:25:53 2017'), ('铸锻图：寻踪觅宝·鞋子', '生活技艺_重铸配方', '300', '36', '0', 'Wed Feb 15 16:30:57 2017'), ('轻身丹', '生活技艺_医术产物', '20', '45', '70', 'Wed Feb 15 16:19:35 2017'), ('上等里脊肉', '生活技艺_烹饪材料', '0', '86', '42', 'Wed Feb 15 16:13:53 2017'), ('鱼口绫', '生活技艺_缝纫材料', '2', '72', '50', 'Wed Feb 15 16:18:52 2017'), ('方棋绫', '生活技艺_缝纫材料', '0', '58', '0', 'Wed Feb 15 16:14:29 2017'), ('衣饰包·披风', '生活技艺_缝纫产物', '119', '25', '0', 'Wed Feb 15 16:24:41 2017'), ('剑胆·磨石（疗伤）', '生活技艺_铸造产物', '364', '89', '0', 'Wed Feb 15 16:22:06 2017')]
+Wed Feb 15 16:57:37 2017[普通]: TraderSearchWithoutOCR_Offline 尝试从AH插件读取询价
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13290, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13290 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12531, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12531 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 12533, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 12533 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13127, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13127 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 73266, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 73266 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13282, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13282 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13271, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13271 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13273, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13273 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13281, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13281 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13289, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13289 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13288, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13288 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13278, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13278 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13280, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13280 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13279, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13279 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13272, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13272 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13270, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13270 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13269, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13269 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13285, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13285 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13132, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13132 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13287, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13287 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 11895, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 11895 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13291, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13291 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2547, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2547 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 2548, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 2548 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13276, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13276 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13284, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13284 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: GetItemInfo 执行数据库指令失败：SELECT name,category from item where uid = 13286, 原因： list index out of range
+Wed Feb 15 16:57:37 2017[警告]: TraderSearchWithoutOCR_Offline 询价函数试图查询不存在的ID : 13286 错误信息：'NoneType' object is not iterable
+Wed Feb 15 16:57:37 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
+Wed Feb 15 16:57:37 2017[普通]: <module> [('玉枢丹', '生活技艺_医术产物', '59', '85', '70', 'Wed Feb 15 16:19:50 2017'), ('珍·鸳鸯鸡', '生活技艺_烹饪产物', '98', '58', '45', 'Wed Feb 15 16:27:31 2017'), ('挂件包·背部', '生活技艺_缝纫产物', '59', '87', '50', 'Wed Feb 15 16:34:36 2017'), ('珍·风骨·锻（外会）', '生活技艺_铸造产物', '1068', '47', '0', 'Wed Feb 15 16:29:17 2017'), ('白术', '生活技艺_医术材料', '0', '93', '86', 'Wed Feb 15 16:14:07 2017'), ('珍·金乳酥', '生活技艺_烹饪产物', '89', '80', '44', 'Wed Feb 15 16:27:24 2017'), ('月锡锭', '生活技艺_铸造产物', '22', '88', '20', 'Wed Feb 15 16:23:16 2017'), ('珍·风骨·锻（内会）', '生活技艺_铸造产物', '841', '70', '0', 'Wed Feb 15 16:29:10 2017'), ('紫苏', '生活技艺_医术材料', '0', '96', '4', 'Wed Feb 15 16:14:00 2017'), ('挂件包·腰部', '生活技艺_缝纫产物', '67', '98', '50', 'Wed Feb 15 16:34:22 2017'), ('佳·水炼犊', '生活技艺_烹饪产物', '305', '0', '20', 'Wed Feb 15 16:27:52 2017'), ('佳·五生盘', '生活技艺_烹饪产物', '180', '0', '50', 'Wed Feb 15 16:27:45 2017'), ('佳·剑胆·铸（外会）', '生活技艺_铸造产物', '1479', '7', '0', 'Wed Feb 15 16:30:21 2017'), ('玉璃丹', '生活技艺_医术产物', '39', '39', '45', 'Wed Feb 15 16:19:57 2017'), ('珍·风骨·铸（外会）', '生活技艺_铸造产物', '1089', '27', '0', 'Wed Feb 15 16:29:31 2017'), ('佳·点骨丹', '生活技艺_医术产物', '145', '49', '50', 'Wed Feb 15 16:25:38 2017'), ('彩锦', '生活技艺_缝纫材料', '1', '97', '35', 'Wed Feb 15 16:14:36 2017'), ('佳·剑胆·铸（内会）', '生活技艺_铸造产物', '1881', '51', '0', 'Wed Feb 15 16:30:28 2017'), ('生铁锭', '生活技艺_铸造产物', '12', '28', '45', 'Wed Feb 15 16:17:49 2017'), ('精玉百炼钢', '生活技艺_铸造产物', '80', '10', '50', 'Wed Feb 15 16:15:39 2017'), ('佳·通花软牛肠', '生活技艺_烹饪产物', '550', '30', '0', 'Wed Feb 15 16:27:38 2017'), ('佳·养神丹', '生活技艺_医术产物', '292', '91', '0', 'Wed Feb 15 16:25:24 2017'), ('剑胆·铸（外会）', '生活技艺_铸造产物', '332', '22', '0', 'Wed Feb 15 16:18:03 2017'), ('佳·玉璃丹', '生活技艺_医术产物', '299', '66', '40', 'Wed Feb 15 16:26:07 2017'), ('清凉月霍碎', '生活技艺_烹饪产物', '38', '36', '22', 'Wed Feb 15 16:21:01 2017'), ('佳·清凉月霍碎', '生活技艺_烹饪产物', '899', '47', '0', 'Wed Feb 15 16:27:59 2017'), ('水炼犊', '生活技艺_烹饪产物', '39', '97', '80', 'Wed Feb 15 16:20:54 2017'), ('剑胆·铸（内会）', '生活技艺_铸造产物', '625', '20', '0', 'Wed Feb 15 16:22:13 2017'), ('图样：细布熊皮靴', '生活技艺_缝纫配方', '188', '58', '0', 'Wed Feb 15 16:16:01 2017'), ('挂件包·面部', '生活技艺_缝纫产物', '96', '91', '0', 'Wed Feb 15 16:34:08 2017'), ('五生盘', '生活技艺_烹饪产物', '35', '10', '4', 'Wed Feb 15 16:20:46 2017'), ('寻踪觅宝·鞋子', '生活技艺_重铸产物', '499', '90', '0', 'Wed Feb 15 16:30:57 2017'), ('佳·烧尾宴', '生活技艺_烹饪产物', '1860', '58', '0', 'Wed Feb 15 16:28:06 2017'), ('绢云母', '生活技艺_缝纫材料', '8', '7', '0', 'Wed Feb 15 16:34:50 2017'), ('寻踪觅宝·帽子', '生活技艺_重铸产物', '599', '76', '0', 'Wed Feb 15 16:31:04 2017'), ('地黄', '生活技艺_缝纫材料', '0', '97', '89', 'Wed Feb 15 16:34:15 2017'), ('飞凤绶带', '生活技艺_缝纫材料', '5', '91', '0', 'Wed Feb 15 16:18:17 2017'), ('佳·剑胆·磨石（外伤）', '生活技艺_铸造产物', '1735', '58', '0', 'Wed Feb 15 16:29:59 2017'), ('银砂', '生活技艺_铸造材料', '8', '79', '65', 'Wed Feb 15 16:24:05 2017'), ('图样：鱼口绫头巾', '生活技艺_缝纫配方', '119', '80', '0', 'Wed Feb 15 16:18:52 2017'), ('佳·剑胆·磨石（内伤）', '生活技艺_铸造产物', '1990', '60', '0', 'Wed Feb 15 16:30:07 2017'), ('银锭', '生活技艺_铸造产物', '43', '99', '35', 'Wed Feb 15 16:23:59 2017'), ('黄精', '生活技艺_医术材料', '3', '2', '55', 'Wed Feb 15 16:17:20 2017'), ('图样：朱雀腰刀', '生活技艺_铸造配方', '3998', '12', '0', 'Wed Feb 15 16:28:20 2017'), ('百花布', '生活技艺_缝纫产物', '41', '99', '0', 'Wed Feb 15 16:35:11 2017'), ('隐月线', '生活技艺_缝纫材料', '6', '50', '35', 'Wed Feb 15 16:35:18 2017'), ('上等腰子', '生活技艺_烹饪材料', '10', '6', '45', 'Wed Feb 15 16:16:58 2017'), ('剑胆·磨石（外伤）', '生活技艺_铸造产物', '413', '7', '0', 'Wed Feb 15 16:21:52 2017'), ('佳·剑胆·磨石（疗伤）', '生活技艺_铸造产物', '1657', '30', '0', 'Wed Feb 15 16:30:14 2017'), ('密银锭', '生活技艺_铸造产物', '90', '0', '0', 'Wed Feb 15 16:23:59 2017'), ('古井泉', '生活技艺_缝纫材料', '19', '46', '0', 'Wed Feb 15 16:34:57 2017'), ('珍珠缀放', '生活技艺_缝纫材料', '26', '29', '70', 'Wed Feb 15 16:34:43 2017'), ('菩提木', '生活技艺_缝纫材料', '16', '65', '60', 'Wed Feb 15 16:34:29 2017'), ('绫罗绣球', '生活技艺_缝纫产物', '75', '4', '54', 'Wed Feb 15 16:33:40 2017'), ('尚·桂枝香囊', '生活技艺_医术产物', '60', '15', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗', '生活技艺_缝纫材料', '0', '14', '70', 'Wed Feb 15 16:19:06 2017'), ('翠绿流苏', '生活技艺_缝纫材料', '22', '96', '0', 'Wed Feb 15 16:24:20 2017'), ('图样：烟雨伞', '生活技艺_缝纫配方', '120', '96', '0', 'Wed Feb 15 16:33:25 2017'), ('图样：蹴鞠', '生活技艺_缝纫配方', '200', '56', '0', 'Wed Feb 15 16:33:18 2017'), ('一捆檀木', '生活技艺_缝纫材料', '199', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('蹴鞠', '生活技艺_缝纫产物', '85', '49', '80', 'Wed Feb 15 16:33:18 2017'), ('五彩球·赤', '节日冬至', '98', '83', '0', 'Wed Feb 15 16:33:11 2017'), ('水波绫', '生活技艺_缝纫材料', '1', '54', '70', 'Wed Feb 15 16:19:13 2017'), ('佳·剑胆·熔锭（外伤）', '生活技艺_铸造产物', '557', '87', '0', 'Wed Feb 15 16:29:45 2017'), ('红铜', '生活技艺_铸造材料', '3', '72', '90', 'Wed Feb 15 16:23:10 2017'), ('锌锭', '生活技艺_铸造产物', '7', '52', '64', 'Wed Feb 15 16:31:25 2017'), ('百花香囊', '生活技艺_医术产物', '5', '47', '0', 'Wed Feb 15 16:32:57 2017'), ('佳·唐安啖', '生活技艺_烹饪产物', '320', '15', '40', 'Wed Feb 15 16:26:28 2017'), ('佳·剑胆·熔锭（内伤）', '生活技艺_铸造产物', '665', '80', '0', 'Wed Feb 15 16:29:52 2017'), ('锡砂', '生活技艺_铸造材料', '1', '44', '50', 'Wed Feb 15 16:23:23 2017'), ('图样：红铜护手', '生活技艺_铸造配方', '118', '83', '0', 'Wed Feb 15 16:23:10 2017'), ('图样：红铜剑', '生活技艺_铸造配方', '120', '16', '0', 'Wed Feb 15 16:23:10 2017'), ('彩色布卷', '生活技艺_缝纫材料', '30', '9', '0', 'Wed Feb 15 16:22:27 2017'), ('佳·箸头春', '生活技艺_烹饪产物', '410000', '0', '0', 'Wed Feb 15 16:26:35 2017'), ('剑胆·熔锭（外伤）', '生活技艺_铸造产物', '87', '48', '50', 'Wed Feb 15 16:21:38 2017'), ('佳·剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '788', '3', '0', 'Wed Feb 15 16:29:38 2017'), ('草节铅', '生活技艺_铸造材料', '0', '87', '93', 'Wed Feb 15 16:23:30 2017'), ('壮骨香囊', '生活技艺_医术产物', '43', '88', '42', 'Wed Feb 15 16:32:57 2017'), ('紫荷香囊', '生活技艺_医术产物', '9', '5', '0', 'Wed Feb 15 16:32:57 2017'), ('烧尾宴', '生活技艺_烹饪产物', '298', '17', '0', 'Wed Feb 15 16:21:16 2017'), ('佳·妙香丹', '生活技艺_医术产物', '274', '97', '0', 'Wed Feb 15 16:26:20 2017'), ('剑胆·熔锭（内伤）', '生活技艺_铸造产物', '63', '46', '60', 'Wed Feb 15 16:21:45 2017'), ('香囊', '安史之乱_枫华谷', '4', '91', '0', 'Wed Feb 15 16:32:57 2017'), ('水晶芙蓉肉', '生活技艺_烹饪材料', '40', '9', '95', 'Wed Feb 15 16:16:15 2017'), ('迷香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('熟铁锭', '生活技艺_铸造产物', '34', '27', '95', 'Wed Feb 15 16:16:22 2017'), ('炉甘石', '生活技艺_铸造材料', '1', '89', '85', 'Wed Feb 15 16:23:38 2017'), ('织锦缎', '生活技艺_缝纫材料', '8', '50', '18', 'Wed Feb 15 16:15:25 2017'), ('佳·玉枢丹', '生活技艺_医术产物', '360', '9', '75', 'Wed Feb 15 16:25:59 2017'), ('剑胆·熔锭（疗伤）', '生活技艺_铸造产物', '46', '99', '49', 'Wed Feb 15 16:21:31 2017'), ('煤炭', '生活技艺_铸造材料', '0', '34', '70', 'Wed Feb 15 16:23:51 2017'), ('玉髓碎片', '生活技能特殊材料', '3', '27', '15', 'Wed Feb 15 16:15:11 2017'), ('点骨丹', '生活技艺_医术产物', '20', '92', '25', 'Wed Feb 15 16:19:42 2017'), ('粗布', '生活技艺_缝纫材料', '0', '97', '75', 'Wed Feb 15 16:18:31 2017'), ('铜锭', '生活技艺_铸造产物', '11', '6', '0', 'Wed Feb 15 16:15:04 2017'), ('中冷泉', '生活技艺_缝纫材料', '0', '14', '99', 'Wed Feb 15 16:21:24 2017'), ('图样：银精巧饰', '生活技艺_铸造配方', '4887', '99', '99', 'Wed Feb 15 16:31:46 2017'), ('养神丹', '生活技艺_医术产物', '39', '38', '45', 'Wed Feb 15 16:19:28 2017'), ('铜镜', '生活技艺_铸造产物', '99', '96', '0', 'Wed Feb 15 16:31:39 2017'), ('五彩球·蓝', '节日冬至', '99', '18', '0', 'Wed Feb 15 16:33:04 2017'), ('铅锭', '生活技艺_铸造产物', '17', '51', '33', 'Wed Feb 15 16:31:18 2017'), ('铸锻图：寻踪觅宝·帽子', '生活技艺_重铸配方', '2500', '0', '0', 'Wed Feb 15 16:31:04 2017'), ('砂铁', '生活技艺_铸造材料', '2', '39', '0', 'Wed Feb 15 16:23:45 2017'), ('寻踪觅宝·武器', '生活技艺_重铸产物', '624', '99', '0', 'Wed Feb 15 16:30:50 2017'), ('娑罗木', '生活技能特殊材料', '98', '29', '0', 'Wed Feb 15 16:16:51 2017'), ('补心丹', '生活技艺_医术产物', '19', '99', '30', 'Wed Feb 15 16:19:21 2017'), ('细布', '生活技艺_缝纫材料', '6', '7', '75', 'Wed Feb 15 16:16:01 2017'), ('珍·风骨·铸（内会）', '生活技艺_铸造产物', '849', '18', '0', 'Wed Feb 15 16:29:24 2017'), ('烟雨石', '生活技艺_铸造材料', '0', '50', '98', 'Wed Feb 15 16:13:39 2017'), ('妙香丹', '生活技艺_医术产物', '39', '39', '84', 'Wed Feb 15 16:20:11 2017'), ('铁木', '生活技艺_缝纫材料', '0', '67', '85', 'Wed Feb 15 16:22:56 2017'), ('首山铜', '生活技艺_铸造材料', '14', '71', '56', 'Wed Feb 15 16:14:14 2017'), ('银礁', '生活技艺_铸造材料', '9', '99', '99', 'Wed Feb 15 16:24:13 2017'), ('水波绫香袋', '生活技艺_缝纫产物', '50', '1', '42', 'Wed Feb 15 16:19:13 2017'), ('锡锭', '生活技艺_铸造产物', '2', '97', '85', 'Wed Feb 15 16:23:16 2017'), ('梨花绒', '生活技艺_缝纫材料', '1', '47', '75', 'Wed Feb 15 16:16:37 2017'), ('虎皮', '生活技艺_缝纫材料', '0', '44', '57', 'Wed Feb 15 16:24:34 2017'), ('图样：青龙腰刀', '生活技艺_铸造配方', '1999', '51', '0', 'Wed Feb 15 16:28:34 2017'), ('桂枝香囊', '生活技艺_医术产物', '40', '89', '50', 'Wed Feb 15 16:32:57 2017'), ('图样：白虎腰刀', '生活技艺_铸造配方', '40', '79', '0', 'Wed Feb 15 16:28:27 2017'), ('猪皮', '生活技艺_缝纫材料', '2', '22', '66', 'Wed Feb 15 16:18:24 2017'), ('青铜锭', '生活技艺_铸造产物', '3', '33', '0', 'Wed Feb 15 16:31:11 2017'), ('剑胆·纹（化劲）', '生活技艺_缝纫产物', '500', '85', '0', 'Wed Feb 15 16:35:26 2017'), ('佳·轻身丹', '生活技艺_医术产物', '500', '48', '0', 'Wed Feb 15 16:25:31 2017'), ('汉宫棋', '生活技艺_烹饪产物', '18', '49', '15', 'Wed Feb 15 16:20:18 2017'), ('佳·汉宫棋', '生活技艺_烹饪产物', '173', '50', '0', 'Wed Feb 15 16:26:56 2017'), ('岫山玉', '生活技能特殊材料', '3', '49', '90', 'Wed Feb 15 16:16:08 2017'), ('棉布', '生活技艺_缝纫材料', '0', '67', '0', 'Wed Feb 15 16:18:38 2017'), ('丝制布卷', '生活技艺_缝纫材料', '17', '2', '50', 'Wed Feb 15 16:18:10 2017'), ('落日绢', '生活技艺_缝纫材料', '1', '59', '6', 'Wed Feb 15 16:16:44 2017'), ('凤凰胎', '生活技艺_烹饪产物', '31', '53', '0', 'Wed Feb 15 16:20:39 2017'), ('佳·凤凰胎', '生活技艺_烹饪产物', '188', '50', '0', 'Wed Feb 15 16:27:17 2017'), ('南红珠', '生活技能特殊材料', '68', '48', '84', 'Wed Feb 15 16:15:46 2017'), ('佳·剑胆·锻（外会）', '生活技艺_铸造产物', '1783', '2', '0', 'Wed Feb 15 16:30:43 2017'), ('珍·九还丹', '生活技艺_医术产物', '90', '15', '40', 'Wed Feb 15 16:24:56 2017'), ('珍·八仙盘', '生活技艺_烹饪产物', '62', '6', '40', 'Wed Feb 15 16:26:49 2017'), ('长生粥', '生活技艺_烹饪产物', '22', '85', '60', 'Wed Feb 15 16:20:32 2017'), ('佳·长生粥', '生活技艺_烹饪产物', '229', '0', '0', 'Wed Feb 15 16:27:10 2017'), ('金沙石', '生活技能特殊材料', '2', '81', '0', 'Wed Feb 15 16:15:32 2017'), ('方纹绫', '生活技艺_缝纫材料', '0', '71', '66', 'Wed Feb 15 16:18:45 2017'), ('佳·剑胆·锻（内会）', '生活技艺_铸造产物', '1998', '8', '0', 'Wed Feb 15 16:30:35 2017'), ('紫背铅', '生活技艺_铸造材料', '0', '4', '84', 'Wed Feb 15 16:23:03 2017'), ('珍·御风丹', '生活技艺_医术产物', '144', '62', '50', 'Wed Feb 15 16:25:10 2017'), ('白编绫', '生活技艺_缝纫材料', '4', '92', '65', 'Wed Feb 15 16:18:59 2017'), ('小天酥', '生活技艺_烹饪产物', '20', '99', '90', 'Wed Feb 15 16:20:25 2017'), ('佳·小天酥', '生活技艺_烹饪产物', '485', '48', '50', 'Wed Feb 15 16:27:03 2017'), ('枷罗木', '生活技能特殊材料', '3', '94', '70', 'Wed Feb 15 16:15:54 2017'), ('剑胆·锻（外会）', '生活技艺_铸造产物', '597', '71', '0', 'Wed Feb 15 16:22:42 2017'), ('月光石', '生活技能特殊材料', '99', '98', '66', 'Wed Feb 15 16:16:29 2017'), ('珍·云梦肉', '生活技艺_烹饪产物', '93', '9', '20', 'Wed Feb 15 16:22:49 2017'), ('珍·益神丹', '生活技艺_医术产物', '150', '3', '35', 'Wed Feb 15 16:25:03 2017'), ('绸缎布卷', '生活技艺_缝纫材料', '17', '74', '90', 'Wed Feb 15 16:17:56 2017'), ('古香缎', '生活技艺_缝纫材料', '1', '19', '42', 'Wed Feb 15 16:15:18 2017'), ('铃铛', '帮会', '449', '73', '0', 'Wed Feb 15 16:29:03 2017'), ('突厥玉', '生活技能特殊材料', '5', '95', '75', 'Wed Feb 15 16:17:12 2017'), ('剑胆·锻（内会）', '生活技艺_铸造产物', '316', '8', '0', 'Wed Feb 15 16:22:20 2017'), ('檀香囊', '生活技艺_医术产物', '1', '50', '0', 'Wed Feb 15 16:32:57 2017'), ('绫罗布卷', '生活技艺_缝纫材料', '18', '7', '80', 'Wed Feb 15 16:17:41 2017'), ('珍·玉阳丹', '生活技艺_医术产物', '120', '10', '15', 'Wed Feb 15 16:24:49 2017'), ('纱制布卷', '生活技艺_缝纫材料', '3', '50', '92', 'Wed Feb 15 16:35:04 2017'), ('通花软牛肠', '生活技艺_烹饪产物', '23', '69', '50', 'Wed Feb 15 16:21:09 2017'), ('图样：麒麟腰刀', '生活技艺_铸造配方', '3899', '93', '0', 'Wed Feb 15 16:28:13 2017'), ('沧海珠', '生活技能特殊材料', '8', '14', '90', 'Wed Feb 15 16:17:27 2017'), ('白信丹', '生活技艺_医术产物', '41', '0', '0', 'Wed Feb 15 16:20:04 2017'), ('佳·补心丹', '生活技艺_医术产物', '282', '93', '33', 'Wed Feb 15 16:25:17 2017'), ('佳·白信丹', '生活技艺_医术产物', '700', '77', '75', 'Wed Feb 15 16:26:14 2017'), ('九霞缎', '生活技艺_缝纫材料', '13', '62', '88', 'Wed Feb 15 16:17:05 2017'), ('佳·剑胆·纹（化劲）', '生活技艺_缝纫产物', '1500', '65', '0', 'Wed Feb 15 16:35:26 2017'), ('剑胆·磨石（内伤）', '生活技艺_铸造产物', '665', '62', '0', 'Wed Feb 15 16:21:59 2017'), ('檀木', '生活技艺_缝纫材料', '3', '65', '0', 'Wed Feb 15 16:22:34 2017'), ('上等五花肉', '生活技艺_烹饪材料', '1', '95', '40', 'Wed Feb 15 16:13:46 2017'), ('丝绸', '生活技艺_缝纫材料', '0', '58', '85', 'Wed Feb 15 16:17:34 2017'), ('轻容纱', '生活技艺_缝纫材料', '0', '54', '99', 'Wed Feb 15 16:14:22 2017'), ('珍·葵花鸭', '生活技艺_烹饪产物', '80', '5', '60', 'Wed Feb 15 16:26:42 2017'), ('珍·养魂丹', '生活技艺_医术产物', '149', '63', '75', 'Wed Feb 15 16:25:53 2017'), ('铸锻图：寻踪觅宝·鞋子', '生活技艺_重铸配方', '300', '36', '0', 'Wed Feb 15 16:30:57 2017'), ('轻身丹', '生活技艺_医术产物', '20', '45', '70', 'Wed Feb 15 16:19:35 2017'), ('上等里脊肉', '生活技艺_烹饪材料', '0', '86', '42', 'Wed Feb 15 16:13:53 2017'), ('鱼口绫', '生活技艺_缝纫材料', '2', '72', '50', 'Wed Feb 15 16:18:52 2017'), ('方棋绫', '生活技艺_缝纫材料', '0', '58', '0', 'Wed Feb 15 16:14:29 2017'), ('衣饰包·披风', '生活技艺_缝纫产物', '119', '25', '0', 'Wed Feb 15 16:24:41 2017'), ('剑胆·磨石（疗伤）', '生活技艺_铸造产物', '364', '89', '0', 'Wed Feb 15 16:22:06 2017')]
+Wed Feb 15 16:57:37 2017[普通]: <module> 182
+Wed Feb 15 17:04:57 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 17:05:05 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 17:05:18 2017[普通]: login 角色登录成功！
+Wed Feb 15 17:05:18 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 17:05:23 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 17:05:25 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 17:05:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 17:07:07 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 17:07:14 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 17:07:26 2017[普通]: login 角色登录成功！
+Wed Feb 15 17:07:26 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 17:07:31 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 17:07:33 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 17:07:38 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 17:13:11 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Wed Feb 15 17:13:19 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Wed Feb 15 17:13:31 2017[普通]: login 角色登录成功！
+Wed Feb 15 17:13:31 2017[普通]: login 未检测到热点广告窗口
+Wed Feb 15 17:13:36 2017[普通]: openTrader 尝试打开交易行
+Wed Feb 15 17:13:38 2017[普通]: openTrader 交易行打开成功！
+Wed Feb 15 17:13:43 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价开始
+Wed Feb 15 17:13:48 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·玉阳丹
+Wed Feb 15 17:13:53 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 突厥玉
+Wed Feb 15 17:13:57 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 玉凝药香草
+Wed Feb 15 17:14:02 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 南红珠
+Wed Feb 15 17:14:07 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·九还丹
+Wed Feb 15 17:14:12 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 沧海珠
+Wed Feb 15 17:14:16 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 岫山玉
+Wed Feb 15 17:14:21 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·益神丹
+Wed Feb 15 17:14:26 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 娑罗木
+Wed Feb 15 17:14:30 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 金沙石
+Wed Feb 15 17:14:35 2017[普通]: TraderSearchWithoutOCR_Online 交易行询价成功！物品 = 珍·御风丹

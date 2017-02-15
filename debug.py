@@ -1,11 +1,12 @@
 import send.sendmail
 import settings
 import time
-import sys
+import inspect
 
 def debug(strs,level = '普通'):
+	strs = str(strs)
 	f = open(settings.DEBUGNAME,'a')
-	f.write(time.ctime()+"["+level+"]: "+str(sys._getframe().f_code.co_name) +" "+strs.strip("\n")+"\n")
+	f.write(time.ctime()+"["+level+"]: "+str(inspect.stack()[1][3]) +" "+strs.strip("\n")+"\n")
 	f.close()
 
 def raiseError(strs,level = 0):
