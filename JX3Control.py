@@ -203,16 +203,15 @@ class JX3Action(object):
 			self.control.Waiting()
 		for ItemName in ItemList:
 			self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_ITEMINPUT))
-			self.control.Waiting(0.5)
 			self.control.ClearData()
-			self.control.Waiting()
+			self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_ITEMINPUT))
+			self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_ITEMINPUT))
 			self.control.InputData(ItemName)
-			self.control.Waiting()
 			i = 0
 			while (i<=waittime)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY)==True):
-				i+=1
+				i+=0.5
 				#print(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY,self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)), settings.TUPLE_TRADER_SEARCHBUTTON_GRAY))
-				self.control.Waiting(1)
+				self.control.Waiting(0.5)
 			if i>waittime:
 				debug("交易行询价超时！物品 = " +ItemName +", 时间 = " + str(waittime),'错误')
 				return

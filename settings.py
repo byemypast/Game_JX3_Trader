@@ -80,16 +80,6 @@ class util():
 		else:
 			return False
 
-		'''
-		for i in x:
-			xsum += i
-		for j in y:
-			ysum += j
-		if abs(xsum-ysum)<sensitive:
-			return True
-		else:
-			return False
-		'''
 
 	class SystemCheck():
 		def __init__(self):
