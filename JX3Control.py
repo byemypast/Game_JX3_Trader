@@ -109,7 +109,7 @@ class JX3Action(object):
 		self.TraderPage = ''
 		self.loginmode = '下线'
 
-	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=settings.INT_GLOBAL_WAITING):
+	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=settings.INT_GLOBAL_OVERTIME):
 		#user:用户名
 		#pwd:密码
 		#wait:默认登陆后等待时间，超时若仍没有判断到标志则认为登录失败:45秒
@@ -161,7 +161,7 @@ class JX3Action(object):
 		self.loginmode = '上线'
 		return 1
 
-	def logout(self,wait=settings.INT_GLOBAL_WAITING):
+	def logout(self,wait=settings.INT_GLOBAL_OVERTIME):
 		#策略：直接使用快捷键登出。请设置为Ctrl + W
 		debug("开始登出模块，超时时间: "+str(wait)+"s.")
 		self.control.PressCtrlW()
@@ -174,7 +174,7 @@ class JX3Action(object):
 			return -1
 		debug("账号登出成功！")
 		self.loginmode = '下线'
-	def openTrader(self,wait=settings.INT_GLOBAL_WAITING):
+	def openTrader(self,wait=settings.INT_GLOBAL_OVERTIME):
 		if self.TraderPage==True:
 			debug("重复打开交易行！",'错误')
 			return
@@ -183,7 +183,7 @@ class JX3Action(object):
 		self.control.Waiting()
 		self.control.ClickMouse(self.util.GetIntTuple(settings.TUPLE_TRADER_DIALOG))
 		i = 0
-		while(i<=wait)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_OPENEDPOS)),settings.TUPLE_TRADER_OPENEDPIX)==False):
+		while(i<=wait)and(self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_TRADER_SEARCHBUTTON)),settings.TUPLE_TRADER_SEARCHBUTTON_NONGRAY)==False):
 			time.sleep(1)
 			i += 1
 		if i>wait:
@@ -194,7 +194,7 @@ class JX3Action(object):
 			self.TraderPage = '买卖'
 			self.TraderWindow = True
 
-	def TraderSearchWithoutOCR_Online(self,waittime = settings.INT_GLOBAL_WAITING):
+	def TraderSearchWithoutOCR_Online(self,waittime = settings.INT_GLOBAL_OVERTIME):
 		#使用非OCR的方式查询游戏物品的价格
 		#流程：首先在买卖页面搜索物品，由AH插件记录价格
 		#      下线后从AH插件记录中读到价格
