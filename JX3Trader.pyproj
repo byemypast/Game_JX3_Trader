@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="debug.py" />
+    <Compile Include="JX3Analysis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="JX3Control.py" />
     <Compile Include="JX3Save.py">
       <SubType>Code</SubType>

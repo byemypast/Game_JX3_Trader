@@ -7,7 +7,7 @@ import win32api
 from debug import *
 
 #发布相关
-VERSION = 0.25 #版本号
+VERSION = 0.28 #版本号
 DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
 
 #时间设置相关
@@ -23,6 +23,7 @@ QUERYITEM_FILENAME = 'query.txt' #欲查询的物品文件
 IGNOREITEM_FILENAME = 'ignore.txt' #查询物品中需要忽略的文件
 AHRECORD_FILENAME = 'F:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
 SAVEDB_FILENAME = 'saverecord.db' #询价保存数据库（允许在运行前不存在）
+PAINTING_FONT_FILENAME = 'C:\\Windows\\Fonts\\msyh.ttc' #画图默认采用华文雅黑字体
 
 #反侦测模式设置
 INT_ANTI_SCAN = 1 #反侦测总开关 1 = 开
@@ -54,6 +55,7 @@ TUPLE_TRADER_SEARCHBUTTON = (526/1366,206/768) #搜索按钮
 TUPLE_TRADER_SEARCHBUTTON_NONGRAY = (146,139,57) #未等待中的按钮颜色
 TUPLE_TRADER_SEARCHBUTTON_GRAY = (138,146,146) #等待中的灰色按钮颜色
 
+#分析相关
 
 
 #将相对位置转化为绝对位置
@@ -74,12 +76,18 @@ class util():
 			return True
 		else:
 			return False
+	def dict2d(self,tdict,key_a,key_b,val):
+		if key_a in tdict:
+			tdict[key_a].update({key_b : val})
+		else:
+			tdict.update({key_a: {key_b :val}})
+
 
 
 	class SystemCheck():
 		def __init__(self):
 			debug("开始自检。当前版本 "+ str(VERSION))
-			checkname = [IGNOREITEM_FILENAME,ITEMSIDDB_FILENAME,QUERYITEM_FILENAME,RECIPE_FILENAME]
+			checkname = [IGNOREITEM_FILENAME,ITEMSIDDB_FILENAME,QUERYITEM_FILENAME,RECIPE_FILENAME,PAINTING_FONT_FILENAME]
 			checked = True
 			for filename in checkname:
 				if os.path.exists(checkname)==False:
