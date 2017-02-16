@@ -138,7 +138,13 @@ class JX3Action(object):
 			self.control.PressESC()
 			return -1
 		debug("账号登录成功！开始尝试第一角色登录")
-		self.control.Waiting()
+		self.control.Waiting(3)
+		if (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_BUSYLOGIN_LOCATION)), settings.TUPLE_LOGIN_BUSYLOGIN_PIXEL) ==True):
+			debug("检测到服务器繁忙状态")
+			self.control.Waiting(1)
+			for i in range(0,3):
+				self.control.PressEnter()
+				self.control.Waiting()
 		self.control.PressEnter() #回车，以第一角色登录
 		i = 0
 		while (self.util.CompareTuple(self.control.GetScreenPixel(self.util.GetIntTuple(settings.TUPLE_LOGIN_SUCCESS_LOCATION)) , settings.TUPLE_LOGIN_SUCCESS_PIXEL) == False) and(i<=wait):
