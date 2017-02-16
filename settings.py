@@ -6,10 +6,14 @@ import win32api
 #私有库
 from debug import *
 
+#发布相关
+VERSION = 0.23 #版本号
+DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
+
 #时间设置相关
 INT_GLOBAL_WAITING = 0.2 #每次操作后等待时间
 INT_RECORDPRICE = 60 * 60 #每隔多少秒登录游戏记录一次价格。至少半小时(1800),推荐一个小时(3600)
-VERSION = 0.21 #版本号
+INT_GLOBAL_WAITING = 45 #默认超时操作时间
 
 #程序文件设置
 DEBUGNAME = "debug.txt" #调试文件输出名（允许在运行前不存在）

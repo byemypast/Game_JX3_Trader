@@ -81,6 +81,9 @@ class JX3Control(object):
 			debug("执行数据库指令失败：SELECT name,category from item where uid = "+strItemID+", 原因： "+ str(err))
 			return
 	def KillFile(self,filename):
+		if settings.DEBUG_FLAG == 1:
+			debug("DEBUG模式不删除文件："+ filename)
+			return
 		try:
 			os.remove(filename)
 		except Exception as err:
@@ -106,7 +109,7 @@ class JX3Action(object):
 		self.TraderPage = ''
 		self.loginmode = '下线'
 
-	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=45):
+	def login(self,user = settings_pwd.USERNAME,pwd = settings_pwd.PASSWORD,wait=settings.INT_GLOBAL_WAITING):
 		#user:用户名
 		#pwd:密码
 		#wait:默认登陆后等待时间，超时若仍没有判断到标志则认为登录失败:45秒
@@ -158,7 +161,7 @@ class JX3Action(object):
 		self.loginmode = '上线'
 		return 1
 
-	def logout(self,wait=45):
+	def logout(self,wait=settings.INT_GLOBAL_WAITING):
 		#策略：直接使用快捷键登出。请设置为Ctrl + W
 		debug("开始登出模块，超时时间: "+str(wait)+"s.")
 		self.control.PressCtrlW()
@@ -171,7 +174,7 @@ class JX3Action(object):
 			return -1
 		debug("账号登出成功！")
 		self.loginmode = '下线'
-	def openTrader(self,wait=10):
+	def openTrader(self,wait=settings.INT_GLOBAL_WAITING):
 		if self.TraderPage==True:
 			debug("重复打开交易行！",'错误')
 			return
@@ -191,7 +194,7 @@ class JX3Action(object):
 			self.TraderPage = '买卖'
 			self.TraderWindow = True
 
-	def TraderSearchWithoutOCR_Online(self,waittime = 40):
+	def TraderSearchWithoutOCR_Online(self,waittime = settings.INT_GLOBAL_WAITING):
 		#使用非OCR的方式查询游戏物品的价格
 		#流程：首先在买卖页面搜索物品，由AH插件记录价格
 		#      下线后从AH插件记录中读到价格
@@ -241,7 +244,7 @@ class JX3Action(object):
 			except Exception as err:
 				debug("询价函数试图查询不存在的ID : " +str(ID)+" 错误信息：" +str(err),"警告")
 		ahfile.close()
-		#self.control.KillFile(settings.AHRECORD_FILENAME) #删除AH插件查询的过期记录
+		self.control.KillFile(settings.AHRECORD_FILENAME) #删除AH插件查询的过期记录
 		debug("读取询价成功！")
 		return result
 

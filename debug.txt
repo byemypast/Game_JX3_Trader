@@ -3284,3 +3284,10 @@ Wed Feb 15 23:08:25 2017[普通]: TraderSearchWithoutOCR_Offline 读取询价成功！
 Wed Feb 15 23:28:15 2017[普通]: _CreateLib 尝试新建保存数据库 : saverecord.db
 Wed Feb 15 23:29:03 2017[普通]: <module> 定时任务触发，间隔秒数 = 3600
 Wed Feb 15 23:29:03 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Thu Feb 16 13:15:39 2017[普通]: <module> 定时任务触发，间隔秒数 = 3600
+Thu Feb 16 13:15:39 2017[普通]: login 开始登录模块，账号 = wangjunyi2008@hsc.pku.edu.cn 密码=len(11),超时设置为: 45s.
+Thu Feb 16 13:15:46 2017[普通]: login 账号登录成功！开始尝试第一角色登录
+Thu Feb 16 14:31:21 2017[严重且发信]: raiseError test
+Thu Feb 16 14:31:52 2017[严重且发信]: raiseError test
+Thu Feb 16 14:33:07 2017[严重且发信]: raiseError test
+Thu Feb 16 14:33:10 2017[普通]: send send.sendmail.send : subject 剑网三交易行程序严重错误 maintext: test

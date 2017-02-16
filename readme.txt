@@ -8,6 +8,7 @@
 1. 手动安装winio/winio64.sys(属性-->数字签名-->证书-->安装证书-->本地,放入下列存储：受信任的根)
 2. 启动测试模式(管理员cmd: bcdedit /set testsigning on )
 3. 重启
+4. 如果你设置了“自动隐藏任务栏”，请取消
 
 (c). 程序设置
 1. 在目录下新建settings_pwd.py
@@ -22,6 +23,8 @@ mail_pass = "<你在此服务器下的密码>"
 
 2.调整settings.py中头几行参数，通常你只用改动AHRECORD_FILENAME为你剑网三AH插件记录文件的位置即可。
 这个文件通常位于游戏目录\\interface\\AH\\AH_Base\\data\\ah.jx3dat中
+
+3.安装第三方库:pyperclip, Pillow, rabird.winio, win32api
 
 (d).运行
 1. 打开游戏，更新，并开始游戏至登录界面。（注意：每周一、周四的更新角色会不能上线，你需要手动停止脚本并更新后方可继续执行）
@@ -38,6 +41,10 @@ mail_pass = "<你在此服务器下的密码>"
 3. 分析物价功能
 4. Django框架下的多权限可视化网站
 
+version 0.22
+[+]增加DEBUG_FLAG, INT_GLOBAL_WAITING选项，方便调试与适应更多机器
+[+]增加readme.txt中配置的一处注意事项
+[-]修复一处发信模块的BUG
 version 0.21
 [+]将所有编码改为utf-8
 version 0.2

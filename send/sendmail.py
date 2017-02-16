@@ -4,10 +4,10 @@ import settings_pwd
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-from debug import *
+import debug
 # 第三方 SMTP 服务
 def send(subject,maintext):
-	debug("send.sendmail.send : subject "+subject+" maintext: "+maintext)
+	debug.debug("send.sendmail.send : subject "+subject+" maintext: "+maintext)
 	try:
 		mail_host=settings_pwd.mail_host
 		mail_user=settings_pwd.mail_user
@@ -22,6 +22,6 @@ def send(subject,maintext):
 		smtpObj.connect(mail_host, 25)    # 25 为 SMTP 端口号
 		smtpObj.login(mail_user,mail_pass)  
 		smtpObj.sendmail(sender, receivers, message.as_string())
-		debug ("邮件发送成功")
+		debug.debug ("邮件发送成功")
 	except Exception as err:
-		debug("邮件发送失败！原因："+str(err))
+		debug.debug("邮件发送失败！原因："+str(err))

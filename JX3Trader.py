@@ -4,7 +4,6 @@ import JX3Save
 import time
 import settings
 from debug import *
-
 def TraderRecord(gameOBJ):
 	gameOBJ.login()
 	time.sleep(1)
