@@ -6,7 +6,7 @@ import settings
 from debug import *
 def TraderRecord(gameOBJ):
 	gameOBJ.login()
-	time.sleep(1)
+	time.sleep(10)
 	gameOBJ.openTrader()
 	time.sleep(1)
 	gameOBJ.TraderSearchWithoutOCR_Online()

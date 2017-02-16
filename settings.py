@@ -21,7 +21,7 @@ RECIPE_FILENAME = 'recipe.txt' #配方原始文件
 ITEMSIDDB_FILENAME = 'nameid.db' #物品名称-UID-分类转化数据库
 QUERYITEM_FILENAME = 'query.txt' #欲查询的物品文件
 IGNOREITEM_FILENAME = 'ignore.txt' #查询物品中需要忽略的文件
-AHRECORD_FILENAME = 'D:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
+AHRECORD_FILENAME = 'F:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
 SAVEDB_FILENAME = 'saverecord.db' #询价保存数据库（允许在运行前不存在）
 
 #反侦测模式设置
