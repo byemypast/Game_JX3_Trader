@@ -44,6 +44,7 @@ mail_pass = "<你在此服务器下的密码>"
 5. 登录界面中的“服务器繁忙”状态
 
 version 0.23
+[-]修复了INT_GLOBAL_OVERTIME与INT_GLOBAL_WAITING冲突的问题
 [-]现在程序由只支持1920*1080调整为只支持1366*768分辨率了
 version 0.22
 [+]增加DEBUG_FLAG, INT_GLOBAL_WAITING选项，方便调试与适应更多机器
