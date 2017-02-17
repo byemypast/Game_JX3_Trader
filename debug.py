@@ -4,10 +4,13 @@ import time
 import inspect
 
 def debug(strs,level = '普通'):
-	strs = str(strs)
-	f = open(settings.DEBUGNAME,'a')
-	f.write(time.ctime()+"["+level+"]: "+str(inspect.stack()[1][3]) +" "+strs.strip("\n")+"\n")
-	f.close()
+	try:
+		strs = str(strs)
+		f = open(settings.DEBUGNAME,'a')
+		f.write(time.ctime()+"["+level+"]: "+str(inspect.stack()[1][3]) +" "+strs.strip("\n")+"\n")
+		f.close()
+	except Exception as err:
+		print("debug输出错误！原因："+str(err))
 
 def raiseError(strs,level = 0):
 	if level==0:

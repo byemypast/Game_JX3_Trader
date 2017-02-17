@@ -16,6 +16,15 @@ def TraderRecord(gameOBJ):
 	return gameOBJ.TraderSearchWithoutOCR_Offline()
 
 atool = JX3Analysis.JX3AnalysisTool("saverecord.db")
+atool.PaintRecent24hItemAll("测试")
+'''
+atool.PaintRecent24hItem("白术").save("白术.png")
+atool.PaintRecent24hItem("南红珠").save("南红珠.png")
+
+debug("*注意：过高收益可能意味着买方较少或恶意高价，请仔细甄别！")
+for name,profit in atool.BestProduct():
+	debug ("物品： "+ name+" 每精力净赚： "+ str(profit)+"金，物品描述："+atool.recipe[name]['describe']+"，配方来源："+atool.recipe[name]['source']+"，专精："+atool.recipe[name]['focus'])
+
 X = ['Thu Feb 16 17:02:45 2017','Thu Feb 16 18:02:45 2017','Thu Feb 16 19:02:45 2017','Thu Feb 16 20:02:45 2017','Thu Feb 16 21:02:45 2017','Thu Feb 16 22:02:45 2017','Thu Feb 16 23:02:45 2017']
 Y = [([0.5,0.5,0.5,0.5,0.5,0.5,0.5],'平均')]
 Ymain = [0.8894,0.889,0.8888,0.8884,0.036,0.8863,0.2858]
@@ -23,6 +32,7 @@ X_D = []
 for t in X:
 	X_D.append(time.strptime(t))
 atool.PaintXY(X,Ymain,"白术",Y,'测试一下')
+'''
 
 exit()
 #一次执行程序，用于生成配置文件等。如果已配置好可不被执行。
