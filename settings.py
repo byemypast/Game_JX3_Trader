@@ -7,13 +7,17 @@ import win32api
 from debug import *
 
 #发布相关
-VERSION = 0.3 #版本号
+VERSION = 0.4 #版本号
 DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
 
 #时间设置相关
 INT_GLOBAL_WAITING = 0.2 #每次操作后等待时间
 INT_RECORDPRICE = 60 * 60 #每隔多少秒登录游戏记录一次价格。至少半小时(1800),推荐一个小时(3600)
 INT_GLOBAL_OVERTIME = 45 #默认超时操作时间
+
+#画图设置
+INT_THRESLOAD_MINUSEXP = 10 #如果均值和价格过于接近，不做图
+INT_OLDSTYLE_TOPLIMIT = 20000 #老格式的查询文件（query.txt），上限最高多少砖。如果读取的价格超过这个钱数，则认为是无效价格（缺货/恶意抬价），不予考虑。
 
 #程序文件设置
 DEBUGNAME = "debug.txt" #调试文件输出名（允许在运行前不存在）
@@ -24,6 +28,8 @@ IGNOREITEM_FILENAME = 'ignore.txt' #查询物品中需要忽略的文件
 AHRECORD_FILENAME = 'F:\\Game\\JX3\\bin\\zhcn\\interface\\AH\\AH_Base\\data\\ah.jx3dat' #AH插件记录（允许在运行前不存在）
 SAVEDB_FILENAME = 'saverecord.db' #询价保存数据库（允许在运行前不存在）
 PAINTING_FONT_FILENAME = 'C:\\Windows\\Fonts\\msyh.ttc' #画图默认采用华文雅黑字体
+TEMPZIP_FILENAME = "temp.zip" #临时保存的压缩文件名
+SAVEPNG_DIRNAME = "savepng" #图像保存的文件夹路径
 
 #反侦测模式设置
 INT_ANTI_SCAN = 1 #反侦测总开关 1 = 开
@@ -55,7 +61,8 @@ TUPLE_TRADER_SEARCHBUTTON = (526/1366,206/768) #搜索按钮
 TUPLE_TRADER_SEARCHBUTTON_NONGRAY = (146,139,57) #未等待中的按钮颜色
 TUPLE_TRADER_SEARCHBUTTON_GRAY = (138,146,146) #等待中的灰色按钮颜色
 
-#分析相关
+#发信相关
+STR_MAIL_SENDTO = 'wangjunyi2008@sina.com,postnice9606@126.com'
 
 
 #将相对位置转化为绝对位置

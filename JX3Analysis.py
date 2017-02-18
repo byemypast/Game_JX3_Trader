@@ -18,6 +18,7 @@ class JX3AnalysisTool(object):
 	util = None
 	constcache = {}
 	query = []
+	toplimit = {}
 	def __init__(self,dbname):
 		self.conn = sqlite3.connect(settings.SAVEDB_FILENAME)
 		self.util = settings.util()
@@ -101,7 +102,14 @@ class JX3AnalysisTool(object):
 		debug("询价文件： "+source+" 更新时间：" + time.ctime(os.path.getmtime(source)))
 		for line in open(source):
 			if line.strip("\n")!='':
-				self.query.append(line.strip("\n").split("\t")[0])
+				info = line.strip("\n").split("\t")
+				self.query.append(info[0])
+				if len(info)>=3:
+					#新格式，有toplimit
+					self.toplimit[info[0]] = int(info[3])
+				else:
+					#旧格式，只有两个tab，无toplimit
+					self.toplimit[info[0]] = int(settings.INT_OLDSTYLE_TOPLIMIT)
 		debug("开始读取常量文件！")
 		debug("常量物品文件： "+source2+" 更新时间：" + time.ctime(os.path.getmtime(source2)))
 		for line in open(source2):
@@ -139,7 +147,12 @@ class JX3AnalysisTool(object):
 					try:
 						price_return = self.dbQuery("select price,time from itemsinfo where name ='"+demand+"'")
 						price_demand = self._GetNewestPrice(price_return)
-						cache[demand] = price_demand
+						if price_demand >= self.toplimit[demand]:
+							#恶意高价
+							debug("检测到恶意抬价！物品："+str(demand)+"，返回询价："+str(price_demand)+"，阈值限价："+str(self.toplimit[demand]),'警告')
+							price_demand = -1
+						else:
+							cache[demand] = price_demand
 					except Exception as err:
 						price_demand = -1
 						debug("分析最佳产品时出错！数据库中没有物品："+ demand +"的价格！，配方 = "+name +"失效！错误ID:"+str(err),'错误')
@@ -154,7 +167,9 @@ class JX3AnalysisTool(object):
 				debug("配方: "+str(name)+" 的每精力收益为 ： "+str(res[name]))
 		return sorted(res.items(),key = lambda item:item[1],reverse = True)
 
-	def PaintRecent24hItem(self,itemname,appenddraw = []):
+	def PaintRecent24hItem(self,itemname,appenddraw = [],thresload = settings.INT_THRESLOAD_MINUSEXP):
+		#itemname:物品名称,appenddraw:辅助线[([],''),([],'')],thresload:不做图阈值
+		#返回值：obj1:PIL图像;obj2:list物品价格;obj3:list物品平均价格
 		debug("开始最近24小时内物品价格走势作图")
 		try:
 			price_return = self.dbQuery("select price,time from itemsinfo where name ='"+itemname+"'")
@@ -164,23 +179,77 @@ class JX3AnalysisTool(object):
 			timelist = []
 			for times in timelist_r:
 				timelist.append(time.ctime(times))
+			#剔除恶意高价
 			pricelist = fetch.__next__()
+			listprice = list(pricelist)
+			delnum = 0
+			for i in range(0,len(listprice)):
+				price_i = listprice[i]
+				time_i = timelist[i]
+				if price_i>=self.toplimit[itemname]:
+					debug("发现恶意高价！物品: "+itemname+" 时间: "+ str(time_i) +" 询价: "+str(price_i)+" 限价: "+str(self.toplimit[itemname]),"警告")
+					delnum += 1
+					listprice[i] = -1
+					timelist[i] = "-1"
+			for i in range(0,delnum):
+				listprice.remove(-1)
+				timelist.remove("-1")
+
+			
 			averagelist = []
 			sum = 0
 			i = 0
-			for price in pricelist:
+			for price in listprice:
 				sum += price
 				i += 1
 				averagelist.append(sum / i)
-			return self.PaintXY(timelist[-min(24,len(timelist)):],list(pricelist)[-min(24,len(timelist)):],itemname,[(averagelist[-min(24,len(timelist)):],'均价')]+appenddraw,"最近24小时 "+itemname +" 价格")
+
+			
+
+
+
+			summinusexp2 = 0
+			for i in list(map(lambda x:(x[0]-x[1])**2,zip(listprice,averagelist))):
+				summinusexp2 += i #strange!sum function doesn't work
+
+			if summinusexp2 >= thresload:
+				return self.PaintXY(timelist[-min(24,len(timelist)):],listprice[-min(24,len(timelist)):],itemname,[(averagelist[-min(24,len(timelist)):],'均价')]+appenddraw,timelist[0]+" 至 "+timelist[-1]+" "+itemname +" 价格"),listprice,averagelist
+			else:
+				debug("物品："+ itemname+ " 触发做图阈值，忽略做图。")
+				return None,None,None
 		except Exception as err:
 			debug("走势图作图错误！错误原因："+str(err)+" 参数：物品："+itemname,'错误')
-			return None
+			return None,None,None
 			#return self.PaintXY(timelist,list(pricelist),itemname,[(averagelist,'均价')]+appenddraw,"最近24小时 "+itemname +" 价格")
-	def PaintRecent24hItemAll(self,prefix):
+	def PaintRecent24hItemAll(self,prefix,log = True): #log:是否计算推荐：
+		#返回值：推荐购买（排序），推荐卖出（排序），当前价格
+		recommand_buy = {}
+		recommand_sell = {}
+		price_now = {}
 		for item in self.query:
-			saveto = os.getcwd() + "\\savepng\\"+prefix+"_"+item+".png"
+			saveto = os.getcwd() + "\\"+settings.SAVEPNG_DIRNAME+"\\"+prefix+"_"+item+".png"
 			debug("正在作最近24小时交易图："+item+",保存到："+saveto)
-			paint = self.PaintRecent24hItem(item)
+			paint,lprice,lavg = self.PaintRecent24hItem(item)
 			if paint !=None:
 				paint.save(saveto)
+				if log == True:
+					#推荐函数
+					price_now[item] = lprice[-1] #当前价格
+					score,isrecommand =  self.Recommand_BuyAndSell(lprice,lavg)
+					if isrecommand:
+						recommand_buy[item] = score 
+					else:
+						recommand_sell[item] = abs(score + lprice[-1] * 0.05) #score为负数，代表着利润。手续费
+		if log == True:
+			rebuy_sorted = sorted(recommand_buy.items(),key = lambda d:d[1],reverse = True)
+			resell_sorted = sorted(recommand_sell.items(),key = lambda d:d[1],reverse = True)
+			return rebuy_sorted,resell_sorted,price_now
+		else:
+			return None,None,none
+
+	def Recommand_BuyAndSell(self,lprice,lavg):
+		lastpricediff = lavg[-1] - lprice[-1] #如果买价低于平均水平
+		if lastpricediff > 0:
+			return lastpricediff,True #1推荐买入
+		else:
+			return lastpricediff,False
