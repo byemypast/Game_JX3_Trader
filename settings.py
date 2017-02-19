@@ -7,7 +7,7 @@ import win32api
 from debug import *
 
 #发布相关
-VERSION = 0.4 #版本号
+VERSION = 0.41 #版本号
 DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
 
 #时间设置相关
@@ -62,7 +62,7 @@ TUPLE_TRADER_SEARCHBUTTON_NONGRAY = (146,139,57) #未等待中的按钮颜色
 TUPLE_TRADER_SEARCHBUTTON_GRAY = (138,146,146) #等待中的灰色按钮颜色
 
 #发信相关
-STR_MAIL_SENDTO = 'wangjunyi2008@sina.com,postnice9606@126.com'
+STR_MAIL_SENDTO = 'jx3trader@sina.com,1210113123@pku.edu.cn'
 
 
 #将相对位置转化为绝对位置

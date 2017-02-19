@@ -26,6 +26,7 @@ def JX3_RealTime_Analysis(atool,ifsend = True):
 			os.mkdir(settings.SAVEPNG_DIRNAME)
 		else:
 			os.mkdir(settings.SAVEPNG_DIRNAME)
+		op.clear()
 	except Exception as err:
 		debug("建立文件夹错误！错误内容："+str(err),'错误')
 		return 
