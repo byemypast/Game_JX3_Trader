@@ -33,14 +33,29 @@ def JX3_RealTime_Analysis(atool,ifsend = True):
 	buy,sell,price = atool.PaintRecent24hItemAll("24小时")
 	#推荐买卖
 	if buy!=None:
-		op.record("推荐购买物品清单：","输出")
+		op.record("本次报告分为以下四部分：")
+		op.record("[1].推荐购买物品清单")
+		op.record("    **注：本版本推荐算法为： 物品当前交易行价格【低于】历史上该物品的均价")
+		op.record("                             建议您充分考虑到成交量、恶意抬价等因素，结合[4].24小时物价监控图，谨慎做出决定")
+		op.record("[2].推荐卖出物品清单")
+		op.record("    **注：本版本推荐算法为： 物品当前交易行价格【高于】历史上该物品的均价")
+		op.record("                             建议您充分考虑到成交量、恶意抬价等因素，结合[4].24小时物价监控图，谨慎做出决定")
+		op.record("                             卖出部分的利润【已刨除】交易行手续费")
+		op.record("[3].当前最大利润生物技艺物品清单")
+		op.record("    **注：原材料、卖出价格按当前交易行价格。利润【未刨除】交易行手续费")
+		op.record("[4].24小时物价监控图（附件）")
+		op.record("    **注：附件中黄线为程序从2017年2月16日至今的均价走势。蓝线为程序每次上线交易行监控。因网速、意外下线、维护等问题，横轴并非严格等于一小时")
+		op.record("---------------------------------------------------------------------------------")
+		op.record("[1]. 推荐购买物品清单：","输出")
 		for items,value in buy:
 			op.record("物品："+items+"，低于历史均价："+str(value)+"，当前价格："+str(price[items]),'输出')
 		op.record("------------------",'输出')
-		op.record("推荐卖出物品清单：",'输出')
+		op.record("[2]. 推荐卖出物品清单：",'输出')
 		for items,value in sell:
 			op.record("物品："+items+"，高于历史均价。现在卖出抛去手续费后剩余利润："+ str(value)+"，当前价格："+str(price[items]),'输出')
 	#最好配方
+	op.record("------------------",'输出')
+	op.record("[3].当前最大利润生物技艺物品清单：",'输出')
 	for name,profit in atool.BestProduct():
 		op.record("物品： "+ name+" 每精力净赚： "+ str(profit)+"金，物品描述："+atool.recipe[name]['describe']+"，配方来源："+atool.recipe[name]['source']+"，专精："+atool.recipe[name]['focus'],'输出')
 	if ifsend:

@@ -7,7 +7,7 @@ import win32api
 from debug import *
 
 #发布相关
-VERSION = 0.41 #版本号
+VERSION = 0.42 #版本号
 DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
 
 #时间设置相关

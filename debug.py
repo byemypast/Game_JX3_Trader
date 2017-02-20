@@ -24,7 +24,7 @@ class output(object):
 	def __init__(self):
 		self.strs = ""
 	def record(self,strout,level = '输出'):
-		self.strs += time.ctime()+"["+level+"]: "+strout.strip("\n")+"\n"
+		self.strs += strout.strip("\n")+"\n"
 		debug(strout,level)
 	def clear(self):
 		self.strs = ""

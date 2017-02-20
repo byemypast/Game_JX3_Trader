@@ -195,7 +195,7 @@ class JX3AnalysisTool(object):
 				listprice.remove(-1)
 				timelist.remove("-1")
 
-			
+			#平均
 			averagelist = []
 			sum = 0
 			i = 0
@@ -203,9 +203,6 @@ class JX3AnalysisTool(object):
 				sum += price
 				i += 1
 				averagelist.append(sum / i)
-
-			
-
 
 
 			summinusexp2 = 0
