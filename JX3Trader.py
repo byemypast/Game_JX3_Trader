@@ -87,6 +87,15 @@ while True:
 		#---------------任务开始----------------
 		PriceList = TraderRecord(GameControl) #执行登录循环
 		SaveControl.updateLib(PriceList) #保存
-		JX3_RealTime_Analysis(AnalysisControl) #分析
+		if settings.Easy_Mode ==False:
+			JX3_RealTime_Analysis(AnalysisControl) #分析
+		else:
+			try:
+				if os.path.exists(settings.TEMPZIP_FILENAME):
+					os.remove(settings.TEMPZIP_FILENAME) #删除zip
+			except Exception as err:
+				debug("尝试删除zip文件失败！原因："+str(err))
+			send.sendmail.zipfile(settings.SAVEDB_FILENAME,settings.TEMPZIP_FILENAME)
+			send.sendmail.sendwithzip(time.ctime(),time.ctime(),settings.TEMPZIP_FILENAME,settings.TEMPZIP_FILENAME)
 		#---------------任务结束----------------
 	time.sleep(1)

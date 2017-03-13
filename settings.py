@@ -9,6 +9,7 @@ from debug import *
 #发布相关
 VERSION = 0.42 #版本号
 DEBUG_FLAG = 0 #是否为DEBUG模式。0为关，1为开。请勿修改！
+Easy_Mode = True #是否为EASY模式。如果为真，则不进行任何分析只把db打包发到邮箱中
 
 #时间设置相关
 INT_GLOBAL_WAITING = 0.2 #每次操作后等待时间

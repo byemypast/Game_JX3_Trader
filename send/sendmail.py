@@ -71,3 +71,8 @@ def zipfolder(path ,filename):
 		zipf.close()
 	except Exception as err:
 		debug.debug("压缩失败！错误信息："+str(err))
+
+def zipsinglefile(filenamefrom,filenameto):
+	f = zipfile.ZipFile(filenameto,'w',zipfile.ZIP_DEFLATED)
+	f.write(filenamefrom)
+	f.close()
